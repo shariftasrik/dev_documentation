@@ -18,10 +18,6 @@
     1. code . .bashrc (it will take you to vs code and open the file named ".bashrc")
 
 ** Step 4:
-    1. nvm
-    2. less .bashrc
-
-** Step 5:
     1. in git bash : code . .bash_profile 
         (it will take you to the file at vs code named ".bash_profile")
     2. copy and paste the below lines into ".bash_profile":
@@ -29,13 +25,13 @@
         test -f~/.bashrc && . ~/.bashrc
     3. ctrl+s (in that file of vs code)
 
-** Step 6:
+** Step 5:
     1. Open thaka git bash kete diye notun kore git bash open korte hbe 
     2. nvm
     3. nvm install --lts
     4. node -v
 
-** Step 7:
+** Step 6:
     1. Open thaka git bash kete diye notun kore git bash open korte hbe
     2. pwd
     3. cd d:
