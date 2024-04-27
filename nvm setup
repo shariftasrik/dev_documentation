@@ -4,7 +4,11 @@
 **Run:
 touch .bash_profile .bashrc
 
-**Search Nvm windows and copy:
+**Search Nvm windows & scroll down
+**click on nvm && and again scroll down
+**click installing and updating
+**copy the link as same as below :
+
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 **Run:
