@@ -1,0 +1,44 @@
+**Run:
+touch .bash_profile .bashrc
+
+**Search Nvm windows and copy:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+**Run:
+code .bashrc
+nvm
+less .bashrc
+
+**In the .bash_profile code:
+search : https://pastebin.com/r2VR6pwh 
+and copy this :
+test -f~/.profile && . ~/.profile
+test -f~/.bashrc && . ~/.bashrc
+
+then paste it into .bash_profile
+
+
+KETE DIYE run nvm
+
+**Run:
+nvm ls
+nvm install --lts
+node -v
+
+pwd
+cd Documents/
+cd d:
+mkdir node_day_1
+cd node_day_1/
+code .
+
+**creare index.js file:
+run:
+ls
+node index.js
+npx create-react-app day1_react_app
+
+
+Go to package.json:
+
+src->app.js->
