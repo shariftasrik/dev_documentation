@@ -25,7 +25,7 @@ test -f~/.bashrc && . ~/.bashrc
 then paste it into .bash_profile
 
 
-KETE DIYE run nvm
+KETE DIYE run : nvm
 
 **Run:
 nvm ls
@@ -33,7 +33,6 @@ nvm install --lts
 node -v
 
 pwd
-cd Documents/
 cd d:
 mkdir node_day_1
 cd node_day_1/
