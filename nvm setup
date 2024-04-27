@@ -1,50 +1,66 @@
-///Source :Lecturer - SD LAB (AUST 2.2)
-///Noted by: Fahmidul Karim (20220104103)
+///Source    : Lecturer - SD LAB (AUST 2.2)                
+///Noted by  : Fahmidul Karim (20220104103)              ///take note from lecturer
+///Edited by : Nimur Rahman Sharif Tasrik (20220104095)  ///Edited for more clearness of the process
 
-**Run:
-touch .bash_profile .bashrc
+** Step 1:
+     1. open git bash
+     2 touch .bash_profile .bashrc 
+       (create two file named ".bash_profile" and ".bashrc")
 
-**Search Nvm windows & scroll down
-**click on nvm && and again scroll down
-**click installing and updating
-**copy the link as same as below :
+** Step 2:
+    1. Search Nvm windows & scroll down
+    2. click on nvm && and again scroll down
+    3. click installing and updating
+    4. copy the link as same as below :
+       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+** Step 3:
+    1. code .bashrc (it will take you to vs code and open the file named ".bashrc")
 
-**Run:
-code .bashrc
-nvm
-less .bashrc
+** Step 4:
+    1. nvm
+    2. less .bashrc
 
-**In the .bash_profile code:
-search : https://pastebin.com/r2VR6pwh 
-and copy this :
-test -f~/.profile && . ~/.profile
-test -f~/.bashrc && . ~/.bashrc
+** Step 5:
+    1. in git bash : code . .bash_profile 
+        (it will take you to the file at vs code named ".bash_profile")
+    2. copy and paste the below lines into ".bash_profile":
+        test -f~/.profile && . ~/.profile
+        test -f~/.bashrc && . ~/.bashrc
+    3. ctrl+s (in that file of vs code)
 
-then paste it into .bash_profile
+** Step 6:
+    1. Open thaka git bash ete diye notun kore git bash open korte hbe 
+    2. nvm
+    3. nvm install --lts
+    4. node -v
 
+** Step 7:
+    1. Open thaka git bash ete diye notun kore git bash open korte hbe
+    2. pwd
+    3. cd d:
+    4. mkdir node_day_1
+    5. cd node_day_1/
+    6. code . (direct vs code e niye jabe)
+    7. create index.js file under node_day_1 in (vs code)
+    8. then go to git bash again:
+    9. ls
+    10. node index.js
+    11. npx create-react-app day1_react_app
+        (then some packages will start to install under npm and finally it will show "Happy hacking!")
 
-KETE DIYE run : nvm
-
-**Run:
-nvm ls
-nvm install --lts
-node -v
+(then git bash kete diye abaro notun kore open korte hbe)
+int git bash, run :
 
 pwd
-cd d:
-mkdir node_day_1
-cd node_day_1/
-code .
-
-**creare index.js file:
-run:
-ls
-node index.js
-npx create-react-app day1_react_app
+cd D:
+cd node_day_1
+cd day1_react_app/ (it will take you to "/d/node_day_1/day1_react_app (master)" )
+npm start (it will complie and take you to the browser and open a new tab name "React App")
 
 
-Go to package.json:
 
-src->app.js->
+Way to find package.json:
+in vs code, if we expand "day1_react_app" there will be found some files 
+expand : src (then you will find)
+app.js (click on it)
