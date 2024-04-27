@@ -30,7 +30,7 @@
     3. ctrl+s (in that file of vs code)
 
 ** Step 6:
-    1. Open thaka git bash ete diye notun kore git bash open korte hbe 
+    1. Open thaka git bash kete diye notun kore git bash open korte hbe 
     2. nvm
     3. nvm install --lts
     4. node -v
