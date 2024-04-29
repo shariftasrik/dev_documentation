@@ -8,9 +8,9 @@
        (create two file named ".bash_profile" and ".bashrc")
 
 ** Step 2:
-    1. Search Nvm windows & scroll down
-    2. click on nvm && and again scroll down
-    3. click installing and updating
+    1. Search "Nvm windows" & scroll down
+    2. click on "nvm" && and again scroll down
+    3. click "installing and updating"
     4. copy the link as same as below :
        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
