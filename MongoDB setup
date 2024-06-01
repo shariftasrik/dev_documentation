@@ -14,7 +14,6 @@ Step 2 : (After downloading MongoDB, there will be automatically download "Mongo
 	4. after the box, you will find "Save & Connect" and "connect" button
 	5. press the "connect" button (only "connect" one, not "save & connect" one)
 	6. It you take to your local host, which is now connected with your MongoDB server
-	7.
 
 Step 3: (Download and Setup mongosh for client)
 
