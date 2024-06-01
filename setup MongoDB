@@ -1,0 +1,53 @@
+Step 1 : (Download MongoDB at your machine)
+ 
+	1. Go to Browser and Search for "MongoDB Download"
+	2. Go to the "MongoDB community Server Download"
+	3. Scroll down and chose you preferred "Version", "Platform" and "Package"
+	4. Hit the download Button
+	5. Simply install MongoDB by clicking next, next ....
+	
+
+Step 2: (Download and Setup mongosh for client)
+
+	1. In that previous search, you will find "Tool" at the left side of the screen
+	2. Click On it and Select "MongoDB Shell" 
+	3. Scroll down and chose you preferred "Version", "Platform" and "Package"
+	4. Hit the download Button
+	5. Simply install "mongosh" by clicking next, next ....
+
+	6. After installing open your command prompt (For windows)
+	7. in cmd write "mongosh" and press enter
+
+	8. then it will shows :
+
+		i. current Mongosh Log ID :
+	       ii. Connecting to : (a link)
+	      iii. MongoDb version
+	       iv. Mongosh Version
+
+
+Step 3: Checking your setup by performing some tasks:
+
+	1. now in "test>" write "show dbs" and press "enter" to see the available databases
+
+
+	2. to create own database :
+
+	     i. write "use database_name" and press "enter"
+	    ii. then that will switch to that created database
+           iii. write "show dbs" to check the available databases to ensure for creating the new database"
+
+	3. to create collection :
+	
+		a. write "db.createCollection("collection_name")" and then press enter
+		b. it everything is okey then it will show "ok" message
+	   
+	4. write something on you database:
+
+            i. insert one row to the collection(given an example)
+
+       		a. db.collection_name.insertOne({"Serial_No":1,"name":"xyz"})
+
+	   ii. to show the row, you will write,
+			"db.collection_name.find().pretty()"
+		   and press enter
