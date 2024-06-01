@@ -6,8 +6,17 @@ Step 1 : (Download MongoDB at your machine)
 	4. Hit the download Button
 	5. Simply install MongoDB by clicking next, next ....
 	
+Step 2 : (After downloading MongoDB, there will be automatically download "MongoDB Compass")
 
-Step 2: (Download and Setup mongosh for client)
+	1. Open it, from your desktop
+	2. at the very first page, you will find "New Connection"
+	3. and there will be box for URI details
+	4. after the box, you will find "Save & Connect" and "connect" button
+	5. press the "connect" button (only "connect" one, not "save & connect" one)
+	6. It you take to your local host, which is now connected with your MongoDB server
+	7.
+
+Step 3: (Download and Setup mongosh for client)
 
 	1. In that previous search, you will find "Tool" at the left side of the screen
 	2. Click On it and Select "MongoDB Shell" 
@@ -26,7 +35,7 @@ Step 2: (Download and Setup mongosh for client)
 	       iv. Mongosh Version
 
 
-Step 3: Checking your setup by performing some tasks:
+Step 4: Checking your setup by performing some tasks:
 
 	1. now in "test>" write "show dbs" and press "enter" to see the available databases
 
@@ -73,3 +82,15 @@ Step 3: Checking your setup by performing some tasks:
 	       ii. to delete database
 
 			db.dropDatabase()
+		
+
+
+
+
+
+
+
+
+
+
+
