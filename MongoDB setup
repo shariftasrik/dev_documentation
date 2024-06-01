@@ -6,7 +6,7 @@ Step 1 : (Download MongoDB at your machine)
 	4. Hit the download Button
 	5. Simply install MongoDB by clicking next, next ....
 	
-Step 2 : (After downloading MongoDB, there will be automatically download "MongoDB Compass")
+Step 2 : (After downloading MongoDB, there will be automatically downloaded "MongoDB Compass")
 
 	1. Open it, from your desktop
 	2. at the very first page, you will find "New Connection"
@@ -14,6 +14,7 @@ Step 2 : (After downloading MongoDB, there will be automatically download "Mongo
 	4. after the box, you will find "Save & Connect" and "connect" button
 	5. press the "connect" button (only "connect" one, not "save & connect" one)
 	6. It you take to your local host, which is now connected with your MongoDB server
+	7.
 
 Step 3: (Download and Setup mongosh for client)
 
@@ -83,13 +84,54 @@ Step 4: Checking your setup by performing some tasks:
 			db.dropDatabase()
 		
 
+Step 5: Setup your MongoDB Cloud Server 
+
+	1. Open Your browser again
+	2. Search for "MongoDB Atlas"
+	3. Enter into the "mongodb.com" => MongoDB Atlas Database
+	4. Click on "Try Free" from the right top side of the page
+	5. Then sign up (Preferred => Google Account)
+	6. Then sign in with that account
+	7. It will check you through Multi factor authentication
+	8. then you will show you an welcome page
+	9. After that will ask you some questions like (what's you goal today? What type of application are you building ... ...  etc) => answer then and click on "Finish" button
+       10. Then it will take you to the new page which will show "Create cluster" => click on it
+       11. Before deploy your cluster select your package(you can use M0 which free for learning purpose for the beginnners)
+       12. Give a name of your cluster
+       13. Select provider (aws, google cloud, Azure)
+       14. Select your region
+       15. then click on "Create Deployment" button
+       16. then make a user name and password then click on  "create user"
+       17. Then Simply click on "Add My Current IP Address"
+       18. Then Click on "Finish and Close"
+       19. Then Click on "Go to overview"
+
+Step 6: Connect MongoDB compass to Cloud MongoDB Atlas
+
+	1. From the overview page click on "connect button"
+	2. Then a menu will appear
+	3. Click on "Compass"
+	4. Then a new page will appear
+	5. Click the copy button from the "Copy the connection string"
+	6. Then Open MongoDB Compass (From your desktop)
+	7. Click on "Connect" from the left top of the home page
+	8. Now at the "New Connection" Paste the "connection string" link into the URI
+	9. and in to <*****> of the connection string put the original password to make it work
+       10. Then click on "connect" button which is under the URI box
+       11. Then it will automatically show your "cluster name" at the top right of the page
+       12. And all the process is done, now you can use your MongoDB 
+       13. Now whatever you will do in your "MongoDB Compass", the same will be reflected to "MongoDB Atlas"
 
 
 
-
-
-
-
-
-
-
+Step 7: Checking your setup by performing some tasks:
+ 
+	1. Click on the "+" sign beside from the search bar
+	2. Give a name at "Database Name"
+	3. Give a name at "Collection Name"
+	4. Then click on "Create Database" button
+	5. Then it will take you to your cluster page
+        6. Click on "ADD DATA" and Select "Insert Document"
+	7. Insert data as your need and click on "Insert" button
+	8. Then refresh your browser and go to your "Cloud MongoDB Atlas" and again click on "Browse Collection"
+	9. Go to your "created collection" and you will find what you inserted at your "MongoDB Compass"
