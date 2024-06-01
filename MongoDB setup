@@ -33,21 +33,43 @@ Step 3: Checking your setup by performing some tasks:
 
 	2. to create own database :
 
-	     i. write "use database_name" and press "enter"
-	    ii. then that will switch to that created database
-           iii. write "show dbs" to check the available databases to ensure for creating the new database"
+	       i. write "use database_name" and press "enter"
+	      ii. then that will switch to that created database
+             iii. write "show dbs" to check the available databases to ensure for creating the new database"
 
 	3. to create collection :
 	
-		a. write "db.createCollection("collection_name")" and then press enter
-		b. it everything is okey then it will show "ok" message
+		i. write "db.createCollection("collection_name")" and then press enter
+	       ii. it everything is okey then it will show "ok" message
+	      iii. to show your collections:
+
+			"show collections"
 	   
 	4. write something on you database:
 
-            i. insert one row to the collection(given an example)
+                i. insert one row to the collection(given an example)
 
-       		a. db.collection_name.insertOne({"Serial_No":1,"name":"xyz"})
+       		        "db.collection_name.insertOne({"Serial_No":1,"name":"xyz"})"
 
-	   ii. to show the row, you will write,
+	       ii. to show the row, you will write(given an example)
+
 			"db.collection_name.find().pretty()"
-		   and press enter
+	
+	5. Update something at your database:
+		
+		i. to update the name :
+			"db.collection_name.updateOne({Serial_No:1},{$set:{name:"abc"}})"
+
+	       ii. to show the updated row, you will write(given an example)
+
+			"db.collection_name.find().pretty()"
+
+	6. Delete something from your database :
+
+		i. to delete any collection :
+
+			db.collection_name.drop()
+
+	       ii. to delete database
+
+			db.dropDatabase()
