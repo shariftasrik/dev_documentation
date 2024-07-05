@@ -59,3 +59,7 @@ Way to find package.json:
 in vs code, if we expand "day1_react_app" there will be found some files 
 expand : src (then you will find)
 app.js (click on it)
+
+
+for carousel
+npm install react-responsive-carousel
