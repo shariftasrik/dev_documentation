@@ -63,3 +63,13 @@ app.js (click on it)
 
 for carousel
 npm install react-responsive-carousel
+
+
+for closing any port (for Windows) :
+     1. Using gitBash:
+          1. netstat -ano | findstr :3000
+          2. taskkill /PID <PID number> /F
+     2. Using Task Manager
+          1. Open Task Manager (Ctrl + Shift + Esc).
+          2. Look for the process that is using port 3000 (often a Node.js or other development server).
+          3. Right-click the process and select "End Task".
