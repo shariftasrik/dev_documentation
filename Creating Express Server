@@ -2,8 +2,43 @@ Creating an express server =>
 
 There are 6 steps :
   1. Create Directory
-  2. Create index.js file
-  3. Initialise npm
-  4. Install the Express package
-  5. Write Server Application in index.js
-  6. Start server
+
+      i. mkdir folder_name
+     ii. cd folder_name
+
+  2. Create index.js file =>
+
+      i. touch index.js
+
+  3. Initialise npm =>
+
+      In the terminal:
+        i. npm init -y
+
+  4. Install the Express package =>
+
+        i. npm i express
+
+  5. Write Server Application in index.js =>
+
+        import express from "express";
+        const app = express();
+        const port = 3000;
+
+        app.listen(port, ()=>{
+            console.log(`Server running on port ${port}.`);
+        });
+
+  6. Start server =>
+
+        In the terminal :
+            node index.js;
+
+
+FOR CHECKING PERPOUS :
+ Go to the localhost,
+    write : localhost:3000
+
+
+Checking which port is working
+    netstat -ano | findstr "LISTENING"
