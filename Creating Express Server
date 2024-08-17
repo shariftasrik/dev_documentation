@@ -4,6 +4,6 @@ There are 6 steps :
   1. Create Directory
   2. Create index.js file
   3. Initialise npm
-  4. Install the express package
+  4. Install the Express package
   5. Write Server Application in index.js
   6. Start server
