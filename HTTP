@@ -1,0 +1,11 @@
+REQUEST VOCAB :
+
+	      1. GET => request a resource from the server (html website, text, data etc.)
+
+	      2. POST => sending resource to the server (form to Sign-Out a website)
+
+	      |- 3. PUT => replace a resource (Replace the full thing)
+UPDATE	| 
+	      |- 4. PATCH => patch up a resource (relace and patch the damage part)
+
+	      5. DELETE => Delete resources
