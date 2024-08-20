@@ -1,0 +1,9 @@
+1. Use npm to install the <b>body-parser</b> module 
+2. Run index.js with <b>nodemon</b>
+3. import the body-parser module
+4. Mount the middleware using the 
+	Express <b>.use()</b> method
+5.Specify 
+      <b>.urlencoded({extended: true})</b> 
+  to create a body for URL-encoded requests likethe submission form
+6. Write a <b>.post("/submit")</b> handler where you console.log() the form contents when the user clicks the submit button
