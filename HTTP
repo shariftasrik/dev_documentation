@@ -5,7 +5,16 @@ REQUEST VOCAB :
 	      2. POST => sending resource to the server (form to Sign-Out a website)
 
 	      |- 3. PUT => replace a resource (Replace the full thing)
-UPDATE	| 
+     UPDATE   | 
 	      |- 4. PATCH => patch up a resource (relace and patch the damage part)
 
 	      5. DELETE => Delete resources
+
+
+HTTP RESPONSE CODE :
+
+	100-199 => Informational Responses
+	200-299 => Successful Responses
+	300-399 => Redirection Responses
+	400-499 => Client Error Responses
+	500-599 => Server Error Responses
