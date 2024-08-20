@@ -32,7 +32,7 @@ There are 6 steps :
   6. Start server =>
 
         In the terminal :
-            node index.js;
+            nodemon index.js;
 
 
 FOR CHECKING PERPOUS :
