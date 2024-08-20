@@ -1,11 +1,18 @@
 1. Use npm to install the body-parser module 
+    (  ipm i body-parser  )
 
 2. Run index.js with nodemon
+    (  nodemon index.js   )
 
 3. import the body-parser module
+    (  import bodyParser from "body-parser";  )
 
 4. Mount the middleware using the Express .use() method
+    (  app.use(bodyParser.urlencoded({extended: true}));   )
 
 5.Specify .urlencoded({extended: true}) to create a body for URL-encoded requests likethe submission form
-
+    (  app.use(bodyParser.urlencoded({extended: true}));  )
 6. Write a .post("/submit") handler where you console.log() the form contents when the user clicks the submit button
+        app.post("/submit", (req,res) => {
+            console.log(req.body);
+        });
