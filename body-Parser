@@ -54,7 +54,9 @@ import express from "express";
 //     functionName = req.body["..."];                                               
 //     next();                                                                       
 // }                                                                                   
-                                                                                       
+
+//app.use(functionName);
+
 // app.get("/", (req, res)=>{                                                          
 //     res.sendFile(_dirname + "/public/index.html");                                  
 // });                                                                                 
