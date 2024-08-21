@@ -1,20 +1,72 @@
+NOTE : AT the end there is a sample code, almost everytime we have to use that
+
+
+------------------------------------------------------------------------------------------------------
 FOR THE PRE-PROCESSING PURPOSE : body-parser (Middleware)
 
-1. Use npm to install the body-parser module 
+1. Use npm to install the body-parser module :
+
     (  ipm i body-parser  )
 
-2. Run index.js with nodemon
+2. Run index.js with nodemon :
+
     (  nodemon index.js   )
 
-3. import the body-parser module
+3. import the body-parser module :
+
     (  import bodyParser from "body-parser";  )
 
-4. Mount the middleware using the Express .use() method
-    (  app.use(bodyParser.urlencoded({extended: true}));   )
+4. Mount the middleware using the Express .use() method :
 
-5.Specify .urlencoded({extended: true}) to create a body for URL-encoded requests likethe submission form
+    (  app.use(.................);   )
+
+5.Specify .urlencoded({extended: true}) to create a body for URL-encoded requests likethe submission form :
+
     (  app.use(bodyParser.urlencoded({extended: true}));  )
-6. Write a .post("/submit") handler where you console.log() the form contents when the user clicks the submit button
+
+6. Write a .post("/submit") handler where you console.log() the form contents when the user clicks the submit button :
+
         app.post("/submit", (req,res) => {
             console.log(req.body);
         });
+
+----------------------------------------------X------------------------------------------------------
+
+
+ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT :
+
+******************************************************************************************
+*    import express from "express";                                                      *
+*    import bodyParser from "body-parser";                                               *
+*    import {dirname} from "path";                                                       *
+*    import {fileURLToPath} from "url";                                                  *
+*                                                                                        *
+*    const _dirname = dirname(fileURLToPath(import.meta.url));                           *
+*                                                                                        *
+*    const app = express();                                                              *
+*    const port = 3000;                                                                  *
+*    var bandName = "";                                                                  *
+*                                                                                        *
+*    app.use(bodyParser.urlencoded({extended: true}));                                   *
+*                                                                                        *
+*     function functionName(req, res, next){                                             *
+*          console.log(req.body);                                                        *
+*          functionName = req.body["..."];                                               *
+*          next();                                                                       *
+*    }                                                                                   *
+*                                                                                        *
+*    app.get("/", (req, res)=>{                                                          *
+*        res.sendFile(_dirname + "/public/index.html");                                  *
+*    });                                                                                 *
+*                                                                                        *
+*                                                                                        *
+*    app.post("/submit", (req,res)=>{                                                    *
+*      res.send(`<h1>.............</h1>`)                                                *
+*    });                                                                                 *
+*                                                                                        *
+*    app.listen(port, () => {                                                            *
+*      console.log(`Listening on port ${port}`);                                         *
+*    });                                                                                 *
+*                                                                                        *
+*                                                                                        *
+******************************************************************************************
