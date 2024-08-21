@@ -1,0 +1,7 @@
+initialize and use morgan :
+
+	1. use npm to install the morgan package
+	2. run index2.js with nodemon
+	3. import the morgan module
+	4. mount the middleware using the Express .use() method
+	5. test the logging on localhost and with Postman
