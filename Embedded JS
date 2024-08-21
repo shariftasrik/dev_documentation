@@ -2,6 +2,26 @@ Start Using EJS (Embedded JS) :
 
 	1. Create a new folder called "4.0 EJS".
 	2. Initialize NPM and install Express and ejs
+
+		i. npm init -y
+	       ii. npm i express ejs
+	      
 	3. Create the following files and folders : 
-		index.js and views/index.ejs
+
+		i. mkdir views; touch index.js views/index.ejs
+
 	4. Use the JS getDay() method to build a website that gives advice based on the day of the week.
+
+
+
+Different EJS Tags :
+
+	1. <%= variable %>               : JS output (value of the variable)
+	2. <% console.log("Hello") %>    : JS Execute (only execution but not showing the output)
+	3. <%- <h1>Hello</h1> %>         : Render HTML (shows the html structure of the code which is under the starting and closing tag)
+	4. <%% %%>                       : excape EJS tag (show <% or %>)
+	5. <%# This is a comment %>      : stop execution (commen out something)
+	6. <%- include("<FILE NAME")%>   : insert another file
+		Example :
+		<%- include("header.ejs")%>   : insert another EJS file
+
