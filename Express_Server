@@ -40,10 +40,6 @@ FOR CHECKING PERPOUS :
     write : localhost:3000
 
 
-Checking which port is working
-    netstat -ano | findstr "LISTENING"
-
-
 installing "nodemon" globally (-g tends to globally) :
 
   npm i -g nodemon
