@@ -1,0 +1,7 @@
+Start Using EJS (Embedded JS) :
+
+	1. Create a new folder called "4.0 EJS".
+	2. Initialize NPM and install Express and ejs
+	3. Create the following files and folders : 
+		index.js and views/index.ejs
+	4. Use the JS getDay() method to build a website that gives advice based on the day of the week.
