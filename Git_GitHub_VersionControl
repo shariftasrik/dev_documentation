@@ -42,6 +42,10 @@ NOTE :  There will apear vim (a text editor),
         that allow to write a merge message but we will leave it empty
         to save the merge we will use (:q!)
 
+Git PUSH :
+
+  1. git push -u origin main
+
 
 
 
