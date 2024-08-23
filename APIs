@@ -1,4 +1,57 @@
-APIs - APPLICATION PROGRAMMING  INTERFACE
+                                  APIs
+                            ----------------    
 
-It's essentially a set of rules and protocols 
-that define how different software can interact with each other.
+APIs - Application Programming Interface
+
+It's essentially a set of rules and protocols that define 
+how different software can interact with each other
+
+----------------------------------------------------------------------------------
+
+			                          REST APIs 
+                          ---------------------
+
+API Endpoints :
+
+	BaseURL/Endpoint
+
+	Example :
+	
+	https://bored-api.appbrewery.com/some-endpoint
+
+---------------------------------------------------------------------------------
+
+Query Parameters :
+
+	BaseURL/endpoint?query=value   ( ?  is must )
+
+	Example :
+	
+	bored-api.appbrewery.com/endpoint?query=value
+
+-----------------------------------------------------------------------------------
+
+Multiple Query Parameters :
+
+	BaseURL/endpoint?query=value&query2=value   ( ?,&  is must )
+
+	Example :
+	
+	bored-api.appbrewery.com/endpoint?query=value&query2=value
+
+
+----------------------------------------------------------------------------------
+
+Path Parameters :
+
+	BaseURL/endpoint/{path-parameter}
+
+	Example :
+
+	bored-api.appbrewery.com/endpoint/{path-parameter}
+		path-parameter : id or userName etc..
+
+-----------------------------------------------------------------------------------
+
+
+	
