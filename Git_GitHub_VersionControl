@@ -1,9 +1,13 @@
+------------------------------------------------------------------------------
+
 Git INITIALIZATION :
   1. mkdir folder_name
   2. cd folder_name
   3. git init
   4. git add . 
   5. git commit -m "message"
+
+------------------------------------------------------------------------------
 
 Git CONNECTION WITH GITHUB REPOSITORY : 
   1. git remote add origin url
@@ -21,14 +25,16 @@ NOTE :
 Git CLONING :
   1. git clone url
 
+--------------------------------------------------------------------------------
+
 Git BRANCHING AND MERGING :
   1. git branch name_of_branch
   2. git merge name_of_branch
 
 NOTE :
 ** checking all the branch, it will show all the branch of the repo
-
 ** git branch
+
 
 Git BRANCH SWITCHING (one to another) :
   1. git checkout name_of_branch
@@ -38,15 +44,25 @@ FOR MERGING ANYTHING TO MAIN BRANCH :
   2. git merge name_of_branch
   3. :q!
   
-NOTE :  There will apear vim (a text editor), 
-        that allow to write a merge message but we will leave it empty
-        to save the merge we will use (:q!)
+NOTE :  
+** There will apear vim (a text editor), 
+** that allow to write a merge message but we will leave it empty
+** to save the merge we will use (:q!)
 
 Git PUSH :
-
   1. git push -u origin main
 
+--------------------------------------------------------------------------------
 
+Git FORKING AND PULL REQUEST :
+  1. Fork the repo in our GitHub
+  2. Do you collaboration
+  3. make commit with your changes to the 
+     master branch of the main authors repo
+  4. Click on the "New Pull Request" from your GitHub accounts repo
+  5. Click on "Create Pull Request" with the appropiate message that what We've done
+   
+Then only the main author can merge the pull-request at his/her repo
 
 
 
