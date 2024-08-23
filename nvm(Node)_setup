@@ -1,7 +1,3 @@
-///Source    : Lecturer - SD LAB (AUST 2.2)                
-///Noted by  : Fahmidul Karim (20220104103)              ///take note from lecturer
-///Edited by : Nimur Rahman Sharif Tasrik (20220104095)  ///Edited for more clearness of the process
-
 ** Step 1:
      1. open git bash
      2 touch .bash_profile .bashrc 
