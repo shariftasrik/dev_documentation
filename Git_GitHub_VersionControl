@@ -33,6 +33,17 @@ NOTE :
 Git BRANCH SWITCHING (one to another) :
   1. git checkout name_of_branch
 
+FOR MERGING ANYTHING TO MAIN BRANCH :
+  1. git checkout main
+  2. git merge name_of_branch
+  3. :q!
+  
+NOTE :  There will apear vim (a text editor), 
+        that allow to write a merge message but we will leave it empty
+        to save the merge we will use (:q!)
+
+
+
 
 
 
