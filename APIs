@@ -53,5 +53,10 @@ Path Parameters :
 
 -----------------------------------------------------------------------------------
 
+APIs Authentication :
 
+	0. No Authentication
+	2. Basic Authentication
+	3. API key Authorisation
+	4. Token Based Authentication
 	
