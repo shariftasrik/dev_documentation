@@ -59,4 +59,24 @@ APIs Authentication :
 	2. Basic Authentication
 	3. API key Authorisation
 	4. Token Based Authentication
-	
+
+No Authentication API :
+
+** public APIs have no authentication
+** anyone can use it
+** super easy to started
+** all of the endpoints don't require any kind of authentication
+** but the API requests are rate limited (only safety things)
+
+Basic Authentication API :
+
+** provide a username and password when you make an API request
+   that means your are authenticating yourself to the API provider
+** Usually, the way that Basic Authentication is done is by passing over 
+   a Base64 encoded string in the header of the request.
+** Base64 encoding => it's basically taking text which is ASCII
+** {
+	username:password
+	Authorisation : username:password_Basic64 format
+   }
+** 
