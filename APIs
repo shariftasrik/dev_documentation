@@ -96,6 +96,48 @@ Authorisation vs Authentication :
 
 -----------------------------------------------------------------------------------
 
+API Key Authorisation :
 
+	Step 1 : Generate API key
+		** GET : URL_to_generate_key
+		** Send
+		** get the "apiKey" at the JSON (K of apiKey is capital)
+
+	Step 2 : USE Filter URL
+		** GET   : URL_to_use_filter
+		** Param : have to write the value 		
+		** Auth  : Set it for "API Key"
+			   Write "apiKey" at beside key box
+			   Paste the apiKey value beside the value box
+			   Set the "Add to" box with Header or Querty Params
+		** URL   : https://xyz.com/filter?score=x&apiKey=9c751b2e8837d5bf 
+			   (filter values will be adjust with url autometically)
+		** Send	 : the result will be shown then
+
+
+-----------------------------------------------------------------------------------
+
+
+Token Based Authentication :
+
+ 	Step 1 : get-auth-token by POST request
+		** POST  : URL_to_get_auth_token
+		** Body  : x-www-form-urlencoded
+			  username : aaaaaa
+			  password : xyzxyz
+		** Send  :
+		** get the "token" at the JSON 
+			(first time only token, after that every time will 
+			generate an error that tells "already issued token")
+		** Store : copy the token
+
+	Step 2 : USE URL
+		** GET   : URL_to_use_filter and set the id as your need	
+		** Auth  : Set it for "Bearer Token"
+		** Token : Paste the token
+		** Send	 : the result will be shown then
+
+
+-----------------------------------------------------------------------------------
 
 
