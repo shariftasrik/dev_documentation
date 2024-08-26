@@ -1,15 +1,13 @@
-APIs           :
-----------------    
+APIs  :   
 
 APIs - Application Programming Interface
 
 It's essentially a set of rules and protocols that define 
 how different software can interact with each other
 
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
-REST APIs     :
----------------
+REST APIs  :
 
 API Endpoints :
 
@@ -19,7 +17,7 @@ API Endpoints :
 	
 	https://bored-api.appbrewery.com/some-endpoint
 
----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 Query Parameters :
 
@@ -40,7 +38,7 @@ Multiple Query Parameters :
 	bored-api.appbrewery.com/endpoint?query=value&query2=value
 
 
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 Path Parameters :
 
@@ -60,6 +58,8 @@ APIs Authentication :
 	3. API key Authorisation
 	4. Token Based Authentication
 
+-----------------------------------------------------------------------------------
+
 No Authentication API :
 
 ** public APIs have no authentication
@@ -67,6 +67,8 @@ No Authentication API :
 ** super easy to started
 ** all of the endpoints don't require any kind of authentication
 ** but the API requests are rate limited (only safety things)
+
+-----------------------------------------------------------------------------------
 
 Basic Authentication API :
 
@@ -79,4 +81,21 @@ Basic Authentication API :
 	username:password
 	Authorisation : username:password_Basic64 format
    }
-** 
+
+-----------------------------------------------------------------------------------
+
+
+Authorisation vs Authentication :
+
+** Authentication => If you have an user, they can authenticate themselves 
+		     	with your service (registering, logging in)
+		     It allows to identify as an user to the API provider
+
+   Authorisation  => It's simply a client who is allowed to use your service
+		     It allows to use an API
+
+-----------------------------------------------------------------------------------
+
+
+
+
