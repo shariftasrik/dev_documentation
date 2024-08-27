@@ -1,0 +1,14 @@
+REST API :
+
+For an API to be fully RESTful, it should be able to handle to all of the different routes (GET, POST, PUT, PATCH, DELETE)
+
+import axios from "axios";
+
+application.post("/", async (req,res) => {
+    try{
+        await axios.post("URL", body, config);
+        res.sendStatus(201);
+    }catch(error){
+        res.status(404).send(error.response.data);
+    }
+})
