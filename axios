@@ -1,6 +1,9 @@
 Axios :
 	axios knows what is the purpose we're trying to achieve.
-	We're trying to reach out from our server to another resource on 	the internet and it makes the responses very simple.
+	We're trying to reach out from our server to another resource on 	
+	the internet and it makes the responses very simple.
+
+------------------------------------------------------------------------------------------------
 
 
 Sample axios :
@@ -17,6 +20,7 @@ app.get("/", async (req,res)=>{
     }
 });
 
+------------------------------------------------------------------------------------------------
 
 
 Axios makes aliases for all of the most commonly used request methods
