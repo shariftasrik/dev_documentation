@@ -34,12 +34,58 @@ There are 6 steps :
         In the terminal :
             nodemon index.js;
 
+------------------------------------------------------------------------------------------
+
 
 FOR CHECKING PERPOUS :
  Go to the localhost,
     write : localhost:3000
 
+------------------------------------------------------------------------------------------
 
 installing "nodemon" globally (-g tends to globally) :
 
   npm i -g nodemon
+
+------------------------------------------------------------------------------------------
+
+ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT :
+
+******************************************************************************************
+// import express from "express";    
+// import axios from "axios";
+// import bodyParser from "body-parser";                                               
+// import {dirname} from "path";                                                       
+// import {fileURLToPath} from "url";                                                  
+                                                                                       
+// const _dirname = dirname(fileURLToPath(import.meta.url));                           
+                                                                                      
+// const app = express();                                                              
+// const port = 3000;                                                                  
+// var bandName = "";                                                                  
+                                                                                       
+// app.use(bodyParser.urlencoded({extended: true}));                                   
+                                                                                       
+// function functionName(req, res, next){                                             
+//     console.log(req.body);                                                        
+//     functionName = req.body["..."];                                               
+//     next();                                                                       
+// }                                                                                   
+
+//app.use(functionName);
+
+// app.get("/", (req, res)=>{                                                          
+//     res.sendFile(_dirname + "/public/index.html");                                  
+// });                                                                                 
+                                                                                       
+                                                                                       
+// app.post("/submit", (req,res)=>{                                                    
+//     res.send(`<h1>.............</h1>`)                                               
+// });                                                                                 
+                                                                                       
+// app.listen(port, () => {                                                            
+//     console.log(`Listening on port ${port}`);                                         
+// });                                                                                   
+//                                                                                        
+//                                                                                        
+******************************************************************************************
