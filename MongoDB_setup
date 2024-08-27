@@ -5,7 +5,9 @@ Step 1 : (Download MongoDB at your machine)
 	3. Scroll down and chose you preferred "Version", "Platform" and "Package"
 	4. Hit the download Button
 	5. Simply install MongoDB by clicking next, next ....
-	
+
+------------------------------------------------------------------------------------------------
+
 Step 2 : (After downloading MongoDB, there will be automatically downloaded "MongoDB Compass")
 
 	1. Open it, from your desktop
@@ -14,6 +16,9 @@ Step 2 : (After downloading MongoDB, there will be automatically downloaded "Mon
 	4. after the box, you will find "Save & Connect" and "connect" button
 	5. press the "connect" button (only "connect" one, not "save & connect" one)
 	6. It you take to your local host, which is now connected with your MongoDB server
+
+------------------------------------------------------------------------------------------------
+
 
 Step 3: (Download and Setup mongosh for client)
 
@@ -32,6 +37,8 @@ Step 3: (Download and Setup mongosh for client)
 	       ii. Connecting to : (a link)
 	      iii. MongoDb version
 	       iv. Mongosh Version
+
+------------------------------------------------------------------------------------------------
 
 
 Step 4: Checking your setup by performing some tasks:
@@ -81,7 +88,10 @@ Step 4: Checking your setup by performing some tasks:
 	       ii. to delete database
 
 			db.dropDatabase()
-		
+
+------------------------------------------------------------------------------------------------
+
+
 
 Step 5: Setup your MongoDB Cloud Server 
 
@@ -105,6 +115,9 @@ Step 5: Setup your MongoDB Cloud Server
        18. Then Click on "Finish and Close"
        19. Then Click on "Go to overview"
 
+------------------------------------------------------------------------------------------------
+
+
 Step 6: Connect MongoDB compass to Cloud MongoDB Atlas
 
 	1. From the overview page click on "connect button"
@@ -121,6 +134,7 @@ Step 6: Connect MongoDB compass to Cloud MongoDB Atlas
        12. And all the process is done, now you can use your MongoDB 
        13. Now whatever you will do in your "MongoDB Compass", the same will be reflected to "MongoDB Atlas"
 
+------------------------------------------------------------------------------------------------
 
 
 Step 7: Checking your setup by performing some tasks:
