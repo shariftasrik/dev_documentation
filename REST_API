@@ -18,3 +18,32 @@ application.post("/", async (req,res) => {
 
 
 -------------------------------------------------------------------------------------
+
+QUS : "What makes an API RESTful?"
+
+N Rules/Steps have to maintain to make an API RESTful.
+
+Step 1 : HTTP
+
+	It has to use standard HTTP Methods
+		GET
+		POST
+		PUT
+		PATCH
+		DELETE
+Step 2 : JSON
+
+	It should have a standard data format that it response with Such as JSON (JavaScript Object Notation) and this a response to calling the API and the response is given back to the client and RESTful API respond with some thing pretty standard like JSON. This is the representation part of the Representational State Transfer.
+
+Resources are represented in a specific format like JSON, and that is sent in response to the client.
+
+Step 3 : Client-Server
+
+Step 4 : Statelessness
+
+	Each request from the client, to the server, should contain all the information, that is needed to understand and process the request.
+	
+Step 5 : Resource-Based
+	
+	It is an API that is centered around resources and uses an URI (Unique Resource Identifier), also known as an URL(Unique Resource Locator).
+	
