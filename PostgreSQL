@@ -6,7 +6,7 @@ import pg from "pg";
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
-  database: "aaa",
+  database: "database_name",
   password: "*******",
   post : 5432,
 });
