@@ -1,0 +1,7 @@
+cd /path/to/your/project       
+git init                      
+git remote add origin <repository-URL> 
+git add .                      
+git commit -m "Initial commit with project files" 
+git branch -M main             
+git push -u origin main        
