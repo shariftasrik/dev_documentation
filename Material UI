@@ -1,8 +1,38 @@
 ///  Official Website
 https://mui.com/material-ui/ 
 
+
 ///  core
 npm install @material-ui/core
 
+
 ///  icons
 npm install @material-ui/icons
+
+
+///  Data Grid
+npm install @mui/x-data-grid
+
+
+///  Date Pickers
+npm install @mui/x-date-pickers
+
+
+///  Lab (Experimental Components)
+npm install @mui/lab
+
+
+///  System (Utility Functions for Custom Styling)
+npm install @mui/system
+
+
+///  Joy UI (Optional - Next-Gen Styles and Components)
+npm install @mui/joy
+
+
+///  Base
+npm install @mui/base
+
+
+///  Always use the latest version by ensuring your npm is updated
+npm install -g npm
