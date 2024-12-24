@@ -2,6 +2,10 @@
 https://mui.com/material-ui/ 
 
 
+/// Material ui npm install process for react components style
+npm install @mui/material @emotion/react @emotion/styled
+
+
 ///  core
 npm install @material-ui/core
 
