@@ -2,8 +2,8 @@
 
 APIs - Application Programming Interface
 
-It's essentially a set of rules and protocols that define 
-how different software can interact with each other
+	It's essentially a set of rules and protocols that define 
+	how different software can interact with each other
 
 -----------------------------------------------------------------------------------
 
@@ -60,37 +60,37 @@ APIs Authentication :
 
 No Authentication API :
 
-** public APIs have no authentication
-** anyone can use it
-** super easy to started
-** all of the endpoints don't require any kind of authentication
-** but the API requests are rate limited (only safety things)
+	** public APIs have no authentication
+	** anyone can use it
+	** super easy to started
+	** all of the endpoints don't require any kind of authentication
+	** but the API requests are rate limited (only safety things)
 
 -----------------------------------------------------------------------------------
 
 Basic Authentication API :
 
-** provide a username and password when you make an API request
-   that means your are authenticating yourself to the API provider
-** Usually, the way that Basic Authentication is done is by passing over 
-   a Base64 encoded string in the header of the request.
-** Base64 encoding => it's basically taking text which is ASCII
-** {
-	username:password
-	Authorisation : username:password_Basic64 format
-   }
+	** provide a username and password when you make an API request
+	   that means your are authenticating yourself to the API provider
+	** Usually, the way that Basic Authentication is done is by passing over 
+	   a Base64 encoded string in the header of the request.
+	** Base64 encoding => it's basically taking text which is ASCII
+	** {
+		username:password
+		Authorisation : username:password_Basic64 format
+	   }
 
 -----------------------------------------------------------------------------------
 
 
 Authorisation vs Authentication :
 
-** Authentication => If you have an user, they can authenticate themselves 
-		     	with your service (registering, logging in)
-		     It allows to identify as an user to the API provider
-
-   Authorisation  => It's simply a client who is allowed to use your service
-		     It allows to use an API
+	** Authentication => If you have an user, they can authenticate themselves 
+			     	with your service (registering, logging in)
+			     It allows to identify as an user to the API provider
+	
+	   Authorisation  => It's simply a client who is allowed to use your service
+			     It allows to use an API
 
 -----------------------------------------------------------------------------------
 
