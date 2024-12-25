@@ -7,7 +7,6 @@
     Note: (create two file named ".bash_profile" and ".bashrc")
  
 
-------------------------------------------------------------------------------------
 
 <h1>Step 2(Using Browser) : </h1>
 
@@ -49,17 +48,55 @@ Note : in that file of vs code
 
 <h1>Step 6 (Close git bash and reopen it) :</h1>
 
+<ol>
+  <li>
+    
+    pwd
+  </li>
+  <li>
+  
+    cd d:
+  </li>
+  <li>
+    
+    mkdir node_day_1
+  </li>
+  <li>  
+    
+    cd node_day_1/
+  </li>
+  <li>
+    
+    code . 
+  Note : It will take directly to the vs code
+  </li>
+  <li>In vs code create a file under node_day_1
+    
+    index.js 
+  </li>
+  <li>Then go to git bash again </li>
+  <li>
+      
+    ls
+  </li>
+  <li>
+    
+    node index.js
+  </li>
+  <li>
+    
+    npx create-react-app day1_react_app
+  Note : then some packages will start to install under npm and finally it will show "Happy hacking!"
+  </li>
+</ol>
     2. pwd
     3. cd d:
     4. mkdir node_day_1
     5. cd node_day_1/
     6. code . (direct vs code e niye jabe)
     7. create index.js file under node_day_1 in (vs code)
-    8. then go to git bash again:
-    9. ls
-    10. node index.js
-    11. npx create-react-app day1_react_app
-        (then some packages will start to install under npm and finally it will show "Happy hacking!")
+
+        
 
 Step 7:
 
@@ -72,21 +109,24 @@ Step 7:
 
 
 
-Way to find package.json:
-in vs code, if we expand "day1_react_app" there will be found some files 
-expand : src (then you will find)
-app.js (click on it)
+<h1>Way to find package.json</h1>
+<p></p>In vs code, if we expand "day1_react_app" there will be found some files <br/>
+expand : src (then you will find) <br/>
+app.js (click on it)</br></p>
 
 
-for carousel
-npm install react-responsive-carousel
+<h1>For carousel </h1>
+
+    npm install react-responsive-carousel
 
 
-for closing any port (for Windows) :
-     1. Using gitBash:
-          1. netstat -ano | findstr :3000
-          2. taskkill /PID <PID number> /F
-     2. Using Task Manager
-          1. Open Task Manager (Ctrl + Shift + Esc).
-          2. Look for the process that is using port 3000 (often a Node.js or other development server).
-          3. Right-click the process and select "End Task".
+For closing any port (for Windows) :
+   1. Using gitBash:
+        
+          netstat -ano | findstr :3000
+          taskkill /PID <PID number> /F
+      
+   3. Using Task Manager
+        1. Open Task Manager (Ctrl + Shift + Esc).
+        2. Look for the process that is using port 3000 (often a Node.js or other development server).
+        3. Right-click the process and select "End Task".
