@@ -2,24 +2,25 @@ Creating an express server =>
 
 <h1>There are 6 steps </h1>
 
-  <h1>Create Directory</h1>
+<ol>
+  <li>Create Directory</li>
 
       mkdir folder_name
       cd folder_name
 
-  <h1>Create index.js file</h1>
+  <li>Create index.js file</li>
 
       touch index.js
 
-  <h1>Initialise npm </h1>
+  <li>Initialise npm</li>
 
       npm init -y
 
-  <h1>Install the Express package</h1>
+  <li>Install the Express package</li>
 
       npm i express
 
-  <h1>Write Server Application in index.js<h1>
+  <li>Write Server Application in index.js</li>
 
         import express from "express";
         const app = express();
@@ -29,27 +30,27 @@ Creating an express server =>
             console.log(`Server running on port ${port}.`);
         });
 
-  <h1>Start server</h1>
+  <li>Start server</li>
 
         nodemon index.js;
 
-
+</ol>
 
 
 <h1>FOR CHECKING PERPOUS </h1>
- 
- <h1>Go to the localhost</h1>
+ <ol>
+ <li>Go to the localhost</li>
        
        localhost:3000
 
 
 
-<h1>installing "nodemon" globally (-g tends to globally)</h1>
+<li>installing "nodemon" globally (-g tends to globally)</li>
 
     npm i -g nodemon
 
 
-<h1>ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT </h1>
+<li>ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT </li>
 
 
      import express from "express";    
@@ -81,7 +82,9 @@ Creating an express server =>
                                                                                            
      app.post("/submit", (req,res)=>{                                                    
          res.send(`<h1>.............</h1>`)                                               
-     });                                                                                 
+     });     
+     
+  </ol>                                                                            
                                                                                            
      app.listen(port, () => {                                                            
          console.log(`Listening on port ${port}`);                                         
