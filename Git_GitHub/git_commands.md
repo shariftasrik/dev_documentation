@@ -1,5 +1,4 @@
 ------------------------------------------------------------------------------
-<span style="background-color: yellow;"><Git INITIALIZATION :</span>
 <Git INITIALIZATION :
   1. mkdir folder_name
   2. cd folder_name
