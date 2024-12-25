@@ -1,6 +1,26 @@
 Youtube video link for installing XAMPP, Composer and Laravel
 
-<a hreh="https://youtu.be/2qgS_MCvDfk?si=MljfFBpXbNiqnp8Z">Youtube</a>
+    https://youtu.be/2qgS_MCvDfk?si=MljfFBpXbNiqnp8Z"
+
+
+
+<h1>Installations</h1>    
+
+<ol>
+  <li>Install php 
+    <ul>
+      <li>Go to : https://www.php.net/downloads.php</li>
+      <li>Click on : Windows downloads</li>
+      <li>Click on Zip of latest version </li>
+    </ul>
+  </li>
+  <ul>
+    
+  </ul>
+  <li>Install Composer :</li>
+  <li>Install XAMPP :</li>
+  <li>Install Laravel :</li>
+</ol>
 #install composer <br/>
 2. Go to : getcomposer.org
 <br/>#(simply next,next, . . . .)
