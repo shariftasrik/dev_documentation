@@ -20,7 +20,7 @@
 
 ------------------------------------------------------------------------------------------------
 
-[Axios makes aliases for all of the most commonly used request methods]
+Axios makes aliases for all of the most commonly used request methods
 
 ------------------------------------------------------------------------------------------------
 <h1>Request method aliases</h1> 
