@@ -51,9 +51,9 @@ ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT : <br/>
                                                                                              
        function functionName(req, res, next){                                             
            console.log(req.body);                                                        
-           functionName = req.body["..."];                                               
-           next();                                                                       
-       }                                                                                   
+           functionName = req.body["..."];                                
+           next();                                                
+       }                                                                         
       
       app.use(functionName);
       
@@ -62,12 +62,12 @@ ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT : <br/>
        });                                                                                 
                                                                                              
                                                                                              
-       app.post("/submit", (req,res)=>{                                                    
+       app.post("/submit", (req,res)=>{
            res.send(`<h1>.............</h1>`)                                               
-       });                                                                                 
+       });
                                                                                              
-       app.listen(port, () => {                                                            
-           console.log(`Listening on port ${port}`);                                         
-       });                                                                                                                                                                           
+       app.listen(port, () => {             
+           console.log(`Listening on port ${port}`);       
+       });                                                                                                                                                            
                                                                                         
 
