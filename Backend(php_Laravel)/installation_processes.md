@@ -15,7 +15,9 @@ Youtube video link for installing XAMPP, Composer and Laravel
 
 
 #after goes there, there will be a guideline page for the installing and creating laravel project
+
   a. Open Windoes Powershell as administrator :
+  
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
   
   
