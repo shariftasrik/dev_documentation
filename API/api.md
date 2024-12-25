@@ -1,9 +1,9 @@
 -----------------------------------------------------------------------------------
 
 APIs - Application Programming Interface
-
-	It's essentially a set of rules and protocols that define 
-	how different software can interact with each other
+<br/>
+It's essentially a set of rules and protocols that define 
+how different software can interact with each other
 
 -----------------------------------------------------------------------------------
 
