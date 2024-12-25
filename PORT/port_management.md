@@ -5,7 +5,7 @@ Checking which port is working :
 
 Stopping a port :
 
-  $ netstat -ano | findstr : port_number
+      $ netstat -ano | findstr : port_number
 
     -------------------------------------------------------------------------------------------
     | TCP    0.0.0.0:port_number           0.0.0.0:0              LISTENING       PID_Number  |
