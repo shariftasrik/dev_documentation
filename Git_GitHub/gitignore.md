@@ -1,4 +1,4 @@
-<h1>Total File will be added into <span style="background-color: red">.gitignore</span> file</h1>
+<h1>Total File will be added into <span>.gitignore</span> file</h1>
 
     #node ignore
     # Logs
