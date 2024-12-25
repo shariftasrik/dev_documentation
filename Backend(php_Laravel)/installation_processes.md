@@ -7,14 +7,8 @@ Youtube video link for installing XAMPP, Composer and Laravel
 <h1>Installations</h1>    
 
 <ol>
-  <li>Install php from https://www.php.net/downloads.php
-    <ol>
-      <li>Click on : Windows downloads</li>
-      <li>Find Zip : VS17 x64 Thread Safe</li>
-    </ol>
-  </li>
-  <li>Install Composer from https://getcomposer.org/</li>
   <li>Install XAMPP from https://www.apachefriends.org/</li>
+  <li>Install Composer from https://getcomposer.org/</li>
   <li>Install Laravel from https://laravel.com/</li>
 </ol>
 
