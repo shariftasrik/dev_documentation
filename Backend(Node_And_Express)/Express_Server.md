@@ -84,10 +84,9 @@ Creating an express server =>
          res.send(`<h1>.............</h1>`)                                               
      });     
      
-  </ol>                                                                            
-                                                                                           
+                                                                                                                                                                  
      app.listen(port, () => {                                                            
          console.log(`Listening on port ${port}`);                                         
      });                                                                                   
                                                                                         
-                                                                                       
+</ol>                                                                                         
