@@ -34,7 +34,7 @@ FOR THE PRE-PROCESSING PURPOSE : body-parser (Middleware)
 
 ALMOS EVERY TIMET(maybe 100%) WE HAVE TO USE IT : <br/>
 <h1>Sample Code</h1>
-******************************************************************************************
+
        import express from "express";    
        import axios from "axios";
        import bodyParser from "body-parser";                                               
