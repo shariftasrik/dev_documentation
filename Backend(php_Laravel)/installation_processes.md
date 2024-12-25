@@ -7,37 +7,32 @@ Youtube video link for installing XAMPP, Composer and Laravel
 <h1>Installations</h1>    
 
 <ol>
-  <li>Install php 
-    <ul>
-      <li>Go to : https://www.php.net/downloads.php</li>
+  <li>Install php from https://www.php.net/downloads.php
+    <ol>
       <li>Click on : Windows downloads</li>
-      <li>Click on Zip of latest version </li>
-    </ul>
+      <li>Find Zip : VS17 x64 Thread Safe</li>
+    </ol>
   </li>
-  <ul>
-    
-  </ul>
-  <li>Install Composer :</li>
-  <li>Install XAMPP :</li>
-  <li>Install Laravel :</li>
+  <li>Install Composer from https://getcomposer.org/</li>
+  <li>Install XAMPP from https://www.apachefriends.org/</li>
+  <li>Install Laravel from https://laravel.com/</li>
 </ol>
-#install composer <br/>
-2. Go to : getcomposer.org
-<br/>#(simply next,next, . . . .)
-<br/>
-#install XAMPP<br/>
-3. Go to : https://www.apachefriends.org/<br/>
-#(Simply next, next, . . . )<br/>
 
-#install Laravel<br/>
-4. Go to : https://laravel.com/
+
 
 #after goes there, there will be a guideline page for the installing and creating laravel project
   a. Open Windoes Powershell as administrator :
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
-  a.  in CMD : 
+  
+  
+  In CMD :
+  
           composer global require laravel/installer
-  b.  for creating new app(backend), in vs code terminal(in a folder) : 
+          
+  For creating new app(backend):
+  
+  In vscode terminal(in a folder) : 
+  
           laravel new app_name 
 
 
