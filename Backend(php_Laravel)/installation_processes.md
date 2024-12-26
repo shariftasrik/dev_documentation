@@ -1,9 +1,3 @@
-<h1>Youtube video link for installing XAMPP, Composer and Laravel</h1>
-
-    https://youtu.be/yFFXPAOvIic?si=iiYhxi8VB81axANo
-
-
-
 <h1>Installations Process </h1>    
 
 <h2>Step 1 : Install XAMPP from </h2>
@@ -75,4 +69,11 @@
           cd folder_name
           laravel new app_name 
 
+
+
+
+
+<h1>Youtube video link for installing XAMPP, Composer and Laravel</h1>
+
+    https://youtu.be/yFFXPAOvIic?si=iiYhxi8VB81axANo
 
