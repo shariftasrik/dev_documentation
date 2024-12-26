@@ -47,7 +47,7 @@
 
         composer global require laravel/installer
         
-<li>Open <i>CMD</i> and paste the instruction command and press Enter</li>
+<li>Open <i>CMD</i> and copy/paste the command and press Enter</li>
 <li>After installation check the Laravel version using <i>CMD</i></li>
         
         laravel --version
@@ -67,11 +67,6 @@
 <h2>Open Windoes Powershell as administrator [Mannual Process for installing php]</h2>
   
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
-  
-  
-  In cmd :
-  
-          composer global require laravel/installer
           
 
 --------------------------------------------------------------------------------------------------------------------
