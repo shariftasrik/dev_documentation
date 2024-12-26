@@ -6,7 +6,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
 
 <h1>Installations Process </h1>    
 
-<h1>Step 1 : Install XAMPP from </h1>
+<h2>Step 1 : Install XAMPP from </h2>
     
     https://www.apachefriends.org/
 
@@ -26,19 +26,19 @@ Youtube video link for installing XAMPP, Composer and Laravel
 </ol>
 
 
-<h1>Step 2 : Install Composer from </h1>
+<h2>Step 2 : Install Composer from </h2>
 
     https://getcomposer.org/
 
 
-<h1>Step 3 : Install Composer from </h1>
+<h2>Step 3 : Install Composer from </h2>
 
      Install Laravel from https://laravel.com/
 
 
 
 
-Open Windoes Powershell as administrator :
+<h2>Open Windoes Powershell as administrator </h2>
   
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
   
