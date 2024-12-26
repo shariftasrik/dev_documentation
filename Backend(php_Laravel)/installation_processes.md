@@ -45,7 +45,20 @@ Youtube video link for installing XAMPP, Composer and Laravel
 
      Install Laravel from https://laravel.com/
 
+<h3>Process : </h3>
+<ol>
+<li>Copy and paste the link in the Browser</li>
+<li>Click On <b>GET STARTED</b> Then Scroll down</li>
+<li>We fill find a block called <i>Installing PHP and the Laravel Installer command</i></li>
 
+        composer global require laravel/installer
+        
+<li>Open <i>CMD</i> and paste the instruction command and press Enter</li>
+<li>Then simply click Ok and Next and Finish the process</li>
+<li>After installation check the Laravel version using <i>CMD</i></li>
+        
+        laravel --version
+</ol>
 
 <h2>Open Windoes Powershell as administrator </h2>
   
