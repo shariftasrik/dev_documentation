@@ -15,7 +15,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
     2. Click on <b>Explorer</b> from XAMPP Control Panel<br/>
     3. Find php from that folder and open this and copy that Path (Example : <i>C:\xampp\php </i>)<br/>
     4. Set the to Environment Variable<br/>
-    <h3>Steps</h3>
+    <h3>Stepsfor setting up Environment Variable <i>env</i></h3>
         <ol>
                 <li> Click on Path (User Variable)</li>
                 <li> Edit Path and Paste the location (Example: C:\xampp\php)</li>
