@@ -52,12 +52,19 @@
         
         laravel --version
 
-<li></li>
 </ol>
 
 
+
 --------------------------------------------------------------------------------------------------------------------
-<h2>Open Windoes Powershell as administrator </h2>
+<h2>Creating new App(backend) using vscode terminal</h2> 
+  
+          cd folder_name
+          laravel new app_name 
+
+          
+--------------------------------------------------------------------------------------------------------------------
+<h2>Open Windoes Powershell as administrator [Mannual Process for installing php]</h2>
   
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
   
@@ -66,15 +73,8 @@
   
           composer global require laravel/installer
           
-  For creating new app(backend) using vscode terminal:
-  
-          cd folder_name
-          laravel new app_name 
 
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------
 <h1>Youtube video link for installing XAMPP, Composer and Laravel</h1>
 
     https://youtu.be/yFFXPAOvIic?si=iiYhxi8VB81axANo
