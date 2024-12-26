@@ -21,7 +21,7 @@
 </li>
 
 
-
+--------------------------------------------------------------------------------------------------------------------
 <h2>Step 2 : Install Composer from </h2>
 
     https://getcomposer.org/
@@ -34,7 +34,7 @@
 </ol>
 
 
-
+--------------------------------------------------------------------------------------------------------------------
 <h2>Step 3 : Install Laravel from </h2>
 
      Install Laravel from https://laravel.com/
@@ -55,6 +55,8 @@
 <li></li>
 </ol>
 
+
+--------------------------------------------------------------------------------------------------------------------
 <h2>Open Windoes Powershell as administrator </h2>
   
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
