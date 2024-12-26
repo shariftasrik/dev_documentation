@@ -17,7 +17,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
     4. Set the to Environment Variable<br/>
     
 --------------------------------------------------------------------------------------------------------------------
-<h3>Steps for setting up Environment Variable <i>env</i></h3>
+<h3>Process for setting up Environment Variable <i>env</i></h3>
     <ol>
             <li> Click on Path (User Variable)</li>
             <li> Edit Path and Paste the location (Example: C:\xampp\php)</li>
@@ -32,7 +32,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
 
     https://getcomposer.org/
 
-<h3>Steps : </h3>
+<h3>Process : </h3>
 <ol>
     <li>Copy and paste the link in the Browser</li>
     <li>Click On <b>Download</b> and then Click on <i>Composer-Setup.exe</i></li>
