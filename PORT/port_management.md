@@ -45,7 +45,8 @@ Stopping a port
   
       $ taskkill //PID PID_Number //F
 
-For closing any port (for Windows) :
+<h1>For closing any port (for Windows) </h1>
+
    1. Using gitBash:
         
           netstat -ano | findstr :3000
