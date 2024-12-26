@@ -3,9 +3,13 @@ React State is to make our app more Interactive
 
 <i>Central concept, how react does things</i>
 
-/// UI = f(State)
-/// UI is the function of the States of an App
+<h2>Note : </h2> <br/>
+UI = f(State) <br/>
+UI is the function of the States of an App <br/>
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2>Sample Code : </h2>
 
     import React from "react";
     
