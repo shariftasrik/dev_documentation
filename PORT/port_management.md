@@ -44,3 +44,15 @@ Stopping a port
 <h1>Checking using cmd </h1>
   
       $ taskkill //PID PID_Number //F
+
+For closing any port (for Windows) :
+   1. Using gitBash:
+        
+          netstat -ano | findstr :3000
+          taskkill /PID <PID number> /F
+      
+   3. Using Task Manager
+        1. Open Task Manager (Ctrl + Shift + Esc).
+        2. Look for the process that is using port 3000 (often a Node.js or other development server).
+        3. Right-click the process and select "End Task".
+
