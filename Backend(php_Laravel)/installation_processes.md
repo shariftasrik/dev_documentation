@@ -25,7 +25,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
             <li> Open cmd and write ( php -- version ) and then Enter </li>
     </ol>
 </li>
------------------------------------------------------------------------------------------------------------------
+
 
 
 <h2>Step 2 : Install Composer from </h2>
