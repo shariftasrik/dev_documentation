@@ -12,7 +12,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
 
 <h3>After installing Xampp </h3>
 <ol>
-    <t><li>XAMPP Control Panel popup will appear</li>
+    <li>XAMPP Control Panel popup will appear</li>
     <li>Click on <b>Explorer</b> from XAMPP Control Panel</li>
     <li>Find php from that folder and open this and copy that Path (Example : C:\xampp\php)</li>
     <li>Set the to Environment Variable
@@ -30,13 +30,18 @@ Youtube video link for installing XAMPP, Composer and Laravel
 
     https://getcomposer.org/
 
-<
+<h3>Steps : </h3>
+<ol>
+    <li>Copy and paste the link in the Browser</li>
+    <li>Click On <b>Download</b> and then Click on <i>Composer-Setup.exe</i></li>
+    <li>Then simply click Ok and Next and Finish the process</li>
+</ol>
 
 
-<h2>Step 3 : Install Composer from </h2>
+
+<h2>Step 3 : Install Laravel from </h2>
 
      Install Laravel from https://laravel.com/
-
 
 
 
