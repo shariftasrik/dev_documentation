@@ -20,7 +20,7 @@ Youtube video link for installing XAMPP, Composer and Laravel
             <li>Click on Path (User Variable)</li>
             <li>Edit Path and Paste the location (Example: C:\xampp\php)</li>
             <li>Simply click on Ok, Ok...and finish the process</li>
-            <li>Open cmd and write {php -- version} </li>
+            <li>Open cmd and write ( php -- version ) and then Enter </li>
         </ol>
     </li>
 </ol>
