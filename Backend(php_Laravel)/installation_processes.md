@@ -25,8 +25,15 @@ Youtube video link for installing XAMPP, Composer and Laravel
     </li>
 </ol>
 
-  <li>Install Composer from https://getcomposer.org/</li>
-  <li>Install Laravel from https://laravel.com/</li>
+
+<h1>Step 2 : Install Composer from </h1>
+
+    https://getcomposer.org/
+
+
+<h1>Step 3 : Install Composer from </h1>
+
+     Install Laravel from https://laravel.com/
 
 
 
