@@ -48,7 +48,7 @@ Suggested : No starter kit (for learning)
       [1] PHPUnit
      >
 <br/><br/>
-Select your expected Testing Framework [Simply write the testing framework name just after the ">" sign then press Enter] 
+Select your expected Testing Framework [Simply write the testing framework name just after the ">" sign then press Enter] <br/>
 Suggested : Pest
 <br/><br/>
 <br/>
@@ -64,7 +64,7 @@ Suggested : Pest
       [sqlsrv ] SQL Server (Missing PDO extension)
      >
 <br/>   
-Select your expected Database [write the database name just after the ">" sign then press Enter] 
+Select your expected Database [write the database name just after the ">" sign then press Enter] <br/>
 For our setup : MySQL
 <br/><br/>
 <br/>
