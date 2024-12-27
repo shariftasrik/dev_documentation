@@ -20,7 +20,7 @@ Open VSCode new Terminal :
 <br/>
 Note 1 : You can choose any directory<br/>
 Note 2 : After entering "laravel new project_name" and then if below things appear,Dont worry !!! <br/><br/>
-Note 3 : Simply write down the expected name just after the ">" sign everytime and then press Enter, then your project will start creating <br/> <br/>
+Note 3 : Simply press Enter . . . <br/> <br/>
 
        _                               _
       | |                             | |
@@ -36,8 +36,8 @@ Note 3 : Simply write down the expected name just after the ">" sign everytime a
       [jetstream] Laravel Jetstream
      >
 <br/>
-Select your expected "Starter Kit" [write the Starter Kit name just after the ">" sign then press Enter] <br/><br/>
-Suggested : No starter kit (for learning)
+[Simply press "Enter" after the ">" sign ] <br/><br/>
+
 <br/><br/>
 <br/>
 
@@ -48,8 +48,8 @@ Suggested : No starter kit (for learning)
       [1] PHPUnit
      >
 <br/><br/>
-Select your expected Testing Framework [Simply write the testing framework name just after the ">" sign then press Enter] <br/><br/>
-Suggested : Pest
+[Simply press "Enter" after the ">" sign ] <br/><br/>
+
 <br/><br/>
 <br/>
 
@@ -64,7 +64,7 @@ Suggested : Pest
       [sqlsrv ] SQL Server (Missing PDO extension)
      >
 <br/>   
-Select your expected Database [write the database name just after the ">" sign then press Enter] <br/><br/>
-For our setup : MySQL
+[Simply press "Enter" after the ">" sign ] <br/><br/>
+
 <br/><br/>
 <br/>
