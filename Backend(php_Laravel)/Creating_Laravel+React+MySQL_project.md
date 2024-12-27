@@ -19,7 +19,8 @@ Open VSCode new Terminal :
 
 <br/>
 Note 1 : You can choose any directory<br/>
-Note 2 : After entering "laravel new project_name" .., if this appears,Dont worry simply press Enter, Enter... then your project will start creating <br/> <br/><br/>
+Note 2 : After entering "laravel new project_name" .., if this appears,Dont worry !!! <br/>
+Simply write the expected name just after the ">" sign everytime and then press Enter, then your project will start creating <br/>
 
        _                               _
       | |                             | |
@@ -36,9 +37,11 @@ Note 2 : After entering "laravel new project_name" .., if this appears,Dont worr
      >
 
 
+Select your expected "Starter Kit" [write the Starter Kit name just after the ">" sign then press Enter] 
+<br/><br/>
 <br/>
 <h2>Step 3 :  Selecting Database</h2>
-Select your expected Database [use Array key to react your Target Database] 
+Select your expected Database [write the database name just after the ">" sign then press Enter] 
 <br/><br/>
 
      Which database will your application use? [SQLite]:
