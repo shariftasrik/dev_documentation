@@ -39,7 +39,7 @@ Note 2 : After entering "laravel new project_name" .., if this appears,Dont worr
 <br/>
 <h2>Step 3 :  Selecting Database</h2>
 Select your expected Database [use Array key to react your Target Database] 
-<br/>
+<br/><br/>
 
      Which database will your application use? [SQLite]:
       [sqlite ] SQLite
