@@ -35,12 +35,25 @@ Note 3 : Simply write down the expected name just after the ">" sign everytime a
       [breeze   ] Laravel Breeze
       [jetstream] Laravel Jetstream
      >
-
-
-Select your expected "Starter Kit" [write the Starter Kit name just after the ">" sign then press Enter] 
+<br/>
+Select your expected "Starter Kit" [write the Starter Kit name just after the ">" sign then press Enter] <br/>
+Suggested : No starter kit (for learning)
 <br/><br/>
 <br/>
-<h2>Step 3 :  Selecting Database</h2>
+
+<h1>Step 3 : Selecting "Testing Framework"</h1>
+
+     Which testing framework do you prefer? [Pest]:
+      [0] Pest
+      [1] PHPUnit
+     >
+<br/><br/>
+Select your expected Testing Framework [Simply write the testing framework name just after the ">" sign then press Enter] 
+Suggested : Pest
+<br/><br/>
+<br/>
+
+<h2>Step 4 :  Selecting Database</h2>
 <br/>
 
      Which database will your application use? [SQLite]:
@@ -52,3 +65,6 @@ Select your expected "Starter Kit" [write the Starter Kit name just after the ">
      >
 <br/>   
 Select your expected Database [write the database name just after the ">" sign then press Enter] 
+For our setup : MySQL
+<br/><br/>
+<br/>
