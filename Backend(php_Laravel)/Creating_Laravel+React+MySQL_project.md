@@ -50,6 +50,5 @@ Select your expected "Starter Kit" [write the Starter Kit name just after the ">
       [pgsql  ] PostgreSQL (Missing PDO extension)
       [sqlsrv ] SQL Server (Missing PDO extension)
      >
-
-<br/><br/>     
+<br/>   
 Select your expected Database [write the database name just after the ">" sign then press Enter] 
