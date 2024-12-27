@@ -64,4 +64,4 @@ Note 3 : Simply press Enter . . . <br/> <br/>
 <br/>
 
 <h2>Step 5 : Finish creating Laravel project</h2>
-<h3>The Laravel project setup for "project_name" has successfully completed.</h3>
+The Laravel project setup for "project_name" has successfully completed.<br/>
