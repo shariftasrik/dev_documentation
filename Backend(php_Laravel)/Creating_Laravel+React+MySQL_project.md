@@ -37,8 +37,6 @@ Note 3 : Simply press Enter . . . <br/> <br/>
      >
 <br/>
 [Simply press "Enter" after the ">" sign ] <br/><br/>
-
-<br/><br/>
 <br/>
 
 <h1>Step 3 : Selecting "Testing Framework"</h1>
@@ -49,8 +47,6 @@ Note 3 : Simply press Enter . . . <br/> <br/>
      >
 <br/><br/>
 [Simply press "Enter" after the ">" sign ] <br/><br/>
-
-<br/><br/>
 <br/>
 
 <h2>Step 4 :  Selecting Database</h2>
@@ -65,6 +61,4 @@ Note 3 : Simply press Enter . . . <br/> <br/>
      >
 <br/>   
 [Simply press "Enter" after the ">" sign ] <br/><br/>
-
-<br/><br/>
 <br/>
