@@ -1,4 +1,4 @@
-<h2>Step 1 : Installations</h2>
+<h1>Step 1 : Installations</h1>
 <br/>
 First install XAMPP,composer,Laravel <br/>
 <br/>
@@ -39,7 +39,7 @@ Note 3 : Simply press Enter . . . <br/> <br/>
 [Simply press "Enter" after the ">" sign ] <br/>
 <br/>
 
-<h1>Step 3 : Selecting "Testing Framework"</h1>
+<h2>Step 3 : Selecting "Testing Framework"</h2>
 
      Which testing framework do you prefer? [Pest]:
       [0] Pest
@@ -63,5 +63,5 @@ Note 3 : Simply press Enter . . . <br/> <br/>
 [Simply press "Enter" after the ">" sign ] <br/>
 <br/>
 
-<h1>Step 5 : Finish creating Laravel project</h1>
+<h2>Step 5 : Finish creating Laravel project</h2>
 <h3>The Laravel project setup for "project_name" has successfully completed.</h3>
