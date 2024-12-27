@@ -62,5 +62,6 @@ Note 3 : Simply press Enter . . . <br/> <br/>
 <br/>   
 [Simply press "Enter" after the ">" sign ] <br/>
 <br/>
-<br/>
-<h2>The Laravel project setup for "project_name" has successfully completed.</h2>
+
+<h1>Step 5 : Finish creating Laravel project</h1>
+<h3>The Laravel project setup for "project_name" has successfully completed.</h3>
