@@ -36,7 +36,7 @@ Note 3 : Simply write down the expected name just after the ">" sign everytime a
       [jetstream] Laravel Jetstream
      >
 <br/>
-Select your expected "Starter Kit" [write the Starter Kit name just after the ">" sign then press Enter] <br/>
+Select your expected "Starter Kit" [write the Starter Kit name just after the ">" sign then press Enter] <br/><br/>
 Suggested : No starter kit (for learning)
 <br/><br/>
 <br/>
@@ -48,7 +48,7 @@ Suggested : No starter kit (for learning)
       [1] PHPUnit
      >
 <br/><br/>
-Select your expected Testing Framework [Simply write the testing framework name just after the ">" sign then press Enter] <br/>
+Select your expected Testing Framework [Simply write the testing framework name just after the ">" sign then press Enter] <br/><br/>
 Suggested : Pest
 <br/><br/>
 <br/>
@@ -64,7 +64,7 @@ Suggested : Pest
       [sqlsrv ] SQL Server (Missing PDO extension)
      >
 <br/>   
-Select your expected Database [write the database name just after the ">" sign then press Enter] <br/>
+Select your expected Database [write the database name just after the ">" sign then press Enter] <br/><br/>
 For our setup : MySQL
 <br/><br/>
 <br/>
