@@ -74,7 +74,7 @@ The Laravel project setup for "project_name" has successfully completed.<br/>
     Open the <i>.env</i> file
 </li>    
 <li>
-    <h3>Default : </h3>
+Default :
     
         DB_CONNECTION=sqlite
         # DB_HOST=127.0.0.1
@@ -85,7 +85,7 @@ The Laravel project setup for "project_name" has successfully completed.<br/>
 
 </li>
 <li>
-<h3>After Change : </h3>
+After Change :
 
     DB_CONNECTION=mysql
     # DB_HOST=127.0.0.1
