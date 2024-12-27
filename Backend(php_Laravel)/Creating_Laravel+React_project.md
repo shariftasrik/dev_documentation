@@ -15,8 +15,8 @@ Open VSCode new Terminal :
     laravel new project_name
 
 
-Note 1 : You can choose any directory
-Note 2 : After entering "laravel new project_name" ..
+Note 1 : You can choose any directory<br/>
+Note 2 : After entering "laravel new project_name" .., if this appears,Dont worry simply press Enter, Enter... then your project will start creatng
 
        _                               _
       | |                             | |
@@ -33,7 +33,7 @@ Note 2 : After entering "laravel new project_name" ..
      >
 
 
-if this appears,Dont worry simply press Enter, Enter... then your project will start creatng 
+ 
 
 
 
