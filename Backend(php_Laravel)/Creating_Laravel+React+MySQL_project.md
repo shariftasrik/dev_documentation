@@ -41,8 +41,7 @@ Select your expected "Starter Kit" [write the Starter Kit name just after the ">
 <br/><br/>
 <br/>
 <h2>Step 3 :  Selecting Database</h2>
-Select your expected Database [write the database name just after the ">" sign then press Enter] 
-<br/><br/>
+<br/>
 
      Which database will your application use? [SQLite]:
       [sqlite ] SQLite
@@ -51,3 +50,6 @@ Select your expected Database [write the database name just after the ">" sign t
       [pgsql  ] PostgreSQL (Missing PDO extension)
       [sqlsrv ] SQL Server (Missing PDO extension)
      >
+
+<br/><br/>     
+Select your expected Database [write the database name just after the ">" sign then press Enter] 
