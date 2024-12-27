@@ -71,6 +71,9 @@ The Laravel project setup for "project_name" has successfully completed.<br/>
 <br/>
 <ol>
 <li>
+    Open the <i>.env</i> file
+</li>    
+<li>
     <h3>Default : </h3>
     
         DB_CONNECTION=sqlite
@@ -91,6 +94,14 @@ The Laravel project setup for "project_name" has successfully completed.<br/>
     # DB_USERNAME=root
     # DB_PASSWORD=
 
+</li>
+<li>
+    Go to terminal and go the project_name folder again
+</li>
+<li>
+    Write command:
+    
+        php artisan migrate    
 </li>
 <li>
     
