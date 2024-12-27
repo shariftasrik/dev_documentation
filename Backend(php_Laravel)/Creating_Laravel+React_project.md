@@ -1,12 +1,14 @@
 <h2>Step 1 : Installations</h2>
+<br/>
 First install XAMPP,composer,Laravel <br/>
 <br/>
 Follow this link for the installation process :
 
     https://github.com/shariftasrik/dev_documentation/blob/main/Backend(php_Laravel)/installation_processes.md
 
+<br/>
 <h2>Step 2 : Creating Laravel Project (Backend)</h2>  
-
+<br/>
 Open VSCode new Terminal :
 
     d:
@@ -15,8 +17,9 @@ Open VSCode new Terminal :
     laravel new project_name
 
 
+<br/>
 Note 1 : You can choose any directory<br/>
-Note 2 : After entering "laravel new project_name" .., if this appears,Dont worry simply press Enter, Enter... then your project will start creatng
+Note 2 : After entering "laravel new project_name" .., if this appears,Dont worry simply press Enter, Enter... then your project will start creatng <br/>
 
        _                               _
       | |                             | |
@@ -35,6 +38,6 @@ Note 2 : After entering "laravel new project_name" .., if this appears,Dont worr
 
  
 
-
-
+<br/>
+<br/>
 <h2>Step 3 :  </h2>
