@@ -45,7 +45,7 @@ Note 3 : Simply press Enter . . . <br/> <br/>
       [0] Pest
       [1] PHPUnit
      >
-<br/><br/>
+<br/>
 [Simply press "Enter" after the ">" sign ] <br/>
 <br/>
 
