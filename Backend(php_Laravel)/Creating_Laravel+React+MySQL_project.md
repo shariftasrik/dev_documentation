@@ -65,3 +65,34 @@ Note 3 : Simply press Enter . . . <br/> <br/>
 
 <h2>Step 5 : Finish creating Laravel project</h2>
 The Laravel project setup for "project_name" has successfully completed.<br/>
+<br/>
+
+<h2>Step 6 :  Setup database from ".env"</h2>
+<br/>
+<ol>
+<li>
+    <h3>Default : </h3>
+    
+        DB_CONNECTION=sqlite
+        # DB_HOST=127.0.0.1
+        # DB_PORT=3306
+        # DB_DATABASE=laravel
+        # DB_USERNAME=root
+        # DB_PASSWORD=
+
+</li>
+<li>
+<h3>After Change : </h3>
+
+    DB_CONNECTION=mysql
+    # DB_HOST=127.0.0.1
+    # DB_PORT=3306
+    # DB_DATABASE=laravel
+    # DB_USERNAME=root
+    # DB_PASSWORD=
+
+</li>
+<li>
+    
+</li>
+</ol>
