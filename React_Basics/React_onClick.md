@@ -1,4 +1,4 @@
-React : use of onClick Method
+<h1>React : use of onClick Method</h1>
 
     import React from "react";
     
