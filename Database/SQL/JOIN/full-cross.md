@@ -11,10 +11,6 @@ CREATE TABLE Employees (
     salary DECIMAL(10, 2),
     dept_id VARCHAR(50),
     manager_id VARCHAR(50),
-	
-	--FOREIGN KEY (dept_id) REFERENCES Department(dept_id),
-    
-	--FOREIGN KEY (manager_id) REFERENCES Manager(manager_id)
 );
 
 INSERT INTO Employees (emp_id, emp_name, salary, dept_id, manager_id) VALUES
