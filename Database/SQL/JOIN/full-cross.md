@@ -2,7 +2,7 @@
 
 ## Creating New Database
 
-	create database joinExtraSQL;
+	create database joinSQL;
 
 ## Creating Table for Employees
 
@@ -14,7 +14,7 @@
 	    manager_id VARCHAR(50),
 	);
 
-## Inserting 
+## Inserting values into Employees Table
 
 	INSERT INTO Employees (emp_id, emp_name, salary, dept_id, manager_id) VALUES
 	(1, 'Rahul', 15000, 'D1', 'M1'),
@@ -25,7 +25,7 @@
 	(6, 'Robin', 35000, 'D10', 'M3');
 
 
-## Creating Table
+## Creating Departments Table
 
 	CREATE TABLE Departments (
 	    dept_id VARCHAR(50) PRIMARY KEY,
@@ -34,7 +34,7 @@
 		FOREIGN KEY (emp_id) REFERENCES Employees(emp_id)
 	);
 
-## Inserting 
+## Inserting values into Departments Table
 
 	INSERT INTO Departments (dept_id, dept_name) VALUES
 	('D1', 'HR'),
@@ -42,7 +42,7 @@
 	('D3', 'Engineering'),
 	('D4', 'Marketing');
 
-## Creating Table
+## Creating Managers Table
 
 	CREATE TABLE Managers (
 	    manager_id VARCHAR(50) PRIMARY KEY,
@@ -52,7 +52,7 @@
 	    FOREIGN KEY (dept_id) REFERENCES Departments(dept_id)
 	);
 
-## Inserting 
+## Inserting values into Managers Table
 
 	INSERT INTO Managers (manager_id, manager_name,dept_id) VALUES
 	('M1', 'Prem', 'D3'),
@@ -61,7 +61,7 @@
 	('M4', 'Cory', 'D1');
 
 
-## Creating Table
+## Creating Projects Table
 
 	CREATE TABLE Projects (
 	    project_id INT PRIMARY KEY,
@@ -70,7 +70,7 @@
 	    FOREIGN KEY (team_member_id) REFERENCES Employees(emp_id)
 	);
  
-## Inserting 
+## Inserting values into Projects Table
 
 	INSERT INTO Projects (project_id, project_name, team_member_id) VALUES
 	(1, 'HR Optimization', 1),
@@ -79,7 +79,7 @@
 	(4, 'App Testing', 1),
 	(5, 'Marketing Campaign', 4);
 
-## Creating Table
+## Creating Companyy Table
 
 	create table Companyy(
 		com_id INT primary key,
@@ -87,7 +87,7 @@
 		com_address varchar(100)
 	);
  
-## Inserting 
+## Inserting values into Company Table
 
 	insert into Companyy(com_id, com_name, com_address) values
 		(1, 'SoftDev', 'Dhaka');
