@@ -1,4 +1,4 @@
-#JOIN
+# JOIN Example
 
 ## Creating New Database
 
