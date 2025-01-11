@@ -1,3 +1,5 @@
+# SQL Queries
+
 Select Data
 
     SELECT * FROM table_name;
