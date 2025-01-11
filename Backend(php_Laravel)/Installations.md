@@ -19,10 +19,10 @@
 --------------------------------------------------------------------------------------------------------------------
 <h3>Process for setting up Environment Variable <i>env</i></h3>
 
-            1. Click on Path (User Variable)
-            2. Edit Path and Paste the location (Example: C:\xampp\php)
-            3. Simply click on Ok, Ok...and finish the process
-            4. Open cmd and write ( php -- version ) and then Enter 
+        1. Click on Path (User Variable)
+        2. Edit Path and Paste the location (Example: C:\xampp\php)
+        3. Simply click on Ok, Ok...and finish the process
+        4. Open cmd and write ( php -- version ) and then Enter 
 
 </li>
 
@@ -33,10 +33,10 @@
     https://getcomposer.org/
 
 <h3>Process : </h3>
-
-    1. Copy and paste the link in the Browser
-    2. Click On <b>Download</b> and then Click on <i>Composer-Setup.exe</i>
-    3. Then simply click Ok and Next and Finish the process
+        
+        1. Copy and paste the link in the Browser
+        2. Click On <b>Download</b> and then Click on <i>Composer-Setup.exe</i>
+        3. Then simply click Ok and Next and Finish the process
 
 
 
@@ -47,16 +47,16 @@
 
 <h3>Process : </h3>
 
-    1. Copy and paste the link in the Browser
-    2. Click On <b>GET STARTED</b> Then Scroll down
-    3. We fill find a block called "Installing PHP and the Laravel Installer command"
-
-        composer global require laravel/installer
-        
-    4. Open CMD and copy/paste the command and press Enter
-    5. After installation check the Laravel version using CMD
-        
-        laravel --version
+        1. Copy and paste the link in the Browser
+        2. Click On <b>GET STARTED</b> Then Scroll down
+        3. We fill find a block called "Installing PHP and the Laravel Installer command"
+    
+            composer global require laravel/installer
+            
+        4. Open CMD and copy/paste the command and press Enter
+        5. After installation check the Laravel version using CMD
+            
+            laravel --version
 
 
 
