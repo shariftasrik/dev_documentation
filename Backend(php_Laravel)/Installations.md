@@ -35,7 +35,7 @@
 <h3>Process : </h3>
         
         1. Copy and paste the link in the Browser
-        2. Click On <b>Download</b> and then Click on <i>Composer-Setup.exe</i>
+        2. Click On Download and then Click on Composer-Setup.exe
         3. Then simply click Ok and Next and Finish the process
 
 
@@ -48,7 +48,7 @@
 <h3>Process : </h3>
 
         1. Copy and paste the link in the Browser
-        2. Click On <b>GET STARTED</b> Then Scroll down
+        2. Click On GET STARTED Then Scroll down
         3. We fill find a block called "Installing PHP and the Laravel Installer command"
     
             composer global require laravel/installer
