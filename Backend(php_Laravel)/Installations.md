@@ -6,10 +6,10 @@
 
 <h3>After installing Xampp </h3>
 
-    1. XAMPP Control Panel popup will appear<br/>
-    2. Click on <i><u>Explorer</u></i> from XAMPP Control Panel<br/>
-    3. Find php from that folder and open this and copy that Path (Example : <i>C:\xampp\php </i>)<br/>
-    4. Set the to Environment Variable<br/>
+        1. XAMPP Control Panel popup will appear<br/>
+        2. Click on <i><u>Explorer</u></i> from XAMPP Control Panel<br/>
+        3. Find php from that folder and open this and copy that Path (Example : <i>C:\xampp\php </i>)<br/>
+        4. Set the to Environment Variable<br/>
 
 
 ## Step 2 :Install nodejs
