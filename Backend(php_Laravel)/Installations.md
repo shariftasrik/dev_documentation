@@ -16,7 +16,7 @@
 
     nodejs.org/en/download
 
---------------------------------------------------------------------------------------------------------------------
+
 <h3>Process for setting up Environment Variable <i>env</i></h3>
 
         1. Click on Path (User Variable)
@@ -27,7 +27,7 @@
 </li>
 
 
---------------------------------------------------------------------------------------------------------------------
+
 <h2>Step 3 : Install Composer from </h2>
 
     https://getcomposer.org/
@@ -40,7 +40,6 @@
 
 
 
---------------------------------------------------------------------------------------------------------------------
 <h2>Step 4 : Install Laravel from </h2>
 
      Install Laravel from https://laravel.com/
@@ -62,14 +61,14 @@
 
 
 
---------------------------------------------------------------------------------------------------------------------
+
 <h2>Creating new App(backend) using vscode terminal</h2> 
   
           cd folder_name
           laravel new app_name 
 
           
---------------------------------------------------------------------------------------------------------------------
+
 <h2>Open Windoes Powershell as administrator [Mannual Process for installing php]</h2>
   
           Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
