@@ -11,7 +11,7 @@
     4. Set the to Environment Variable<br/>
 
 
-## Install nodejs
+## Step 2 :Install nodejs
 
     nodejs.org/en/download
 
@@ -27,7 +27,7 @@
 
 
 --------------------------------------------------------------------------------------------------------------------
-<h2>Step 2 : Install Composer from </h2>
+<h2>Step 3 : Install Composer from </h2>
 
     https://getcomposer.org/
 
@@ -40,7 +40,7 @@
 
 
 --------------------------------------------------------------------------------------------------------------------
-<h2>Step 3 : Install Laravel from </h2>
+<h2>Step 4 : Install Laravel from </h2>
 
      Install Laravel from https://laravel.com/
 
