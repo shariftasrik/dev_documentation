@@ -11,7 +11,7 @@
     4. Set the to Environment Variable<br/>
 
 
-## install nodejs for environment
+## Install nodejs
 
     nodejs.org/en/download
 
