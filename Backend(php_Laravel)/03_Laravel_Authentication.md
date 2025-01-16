@@ -40,5 +40,6 @@
             php artisan migrate
 
 
+### Breeze installation successful
 npm install
 npm run dev
