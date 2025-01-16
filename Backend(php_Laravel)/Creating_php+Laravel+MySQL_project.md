@@ -51,21 +51,16 @@ Follow this link for the installation process :
 
 ## Database Setup
 
-1. Write the command in you web browser
+1. Write the command in you web browser and *Enter* then it will show a new page Like this
 
 		localhost/dashboard/
-2. It will show a new page Like this
-![Repo - Dev Documentations](https://github.com/user-attachments/assets/f129825b-405b-462f-8c71-c3ead0b67780)
+
+		![localhost-dashboard](https://github.com/user-attachments/assets/242259df-768f-4e84-82d0-3e6470c703e4)
 
 
-	<ul>
-		<li>Apache Friends</li>
-		<li>Applications</li>
-		<li>FAQs</li>
-		<li>HOW-TO Guides</li>
-		<li>PHPInfo</li>
-		<li>phpMyAdmin</li>
-	</ul>
- 4. Click on phpMyAdmin and it will take you to
+
+ 2. Click on phpMyAdmin and it will take you to
 
     		http://localhost/phpmyadmin/
+
+		![localhost-dashboard](https://github.com/user-attachments/assets/2c4b4af3-1def-44a6-8143-09f7c11f04d0)
