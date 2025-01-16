@@ -1,4 +1,4 @@
-# Creating New php + Laravel + mySQL project
+# Creating a new php + Laravel + mySQL project
 
 ## Step 1 : Installations
 
