@@ -14,11 +14,10 @@ Follow this link for the installation process :
 <ol>
 	<li>Open XAMPP and start "Apache" and "MySQL"</li>
 	<li>Click on "Explorer" from XAMPP and it will take you to XAMPP folder</li>
-	<li>Go to htdocs and create a new folder in which we will create a new laravel project</li>
-	<li></li>
-	<li></li>
+	<li>Go to "htdocs" under XAMPP folder</li>
+	<li>Create a new Folder "Folder_Name" under this "htdocs" and enter into that Folder</li>
+	<li>Click on the Path and it will looks like this : "C:\xampp\htdocs\Folder_Name" </li>
 	<li></li>
 	<li></li>
 	<li></li>
 </ol>
-
