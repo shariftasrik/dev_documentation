@@ -54,7 +54,7 @@ Follow this link for the installation process :
 1. Write the command in you web browser
 
 		localhost/dashboard/
-2. It will show a new page where you will find
+2. It will show a new page with some navigators
 	<ul>
 		<li>Apache Friends</li>
 		<li>Applications</li>
@@ -63,3 +63,6 @@ Follow this link for the installation process :
 		<li>PHPInfo</li>
 		<li>phpMyAdmin</li>
 	</ul>
+ 3. Click on phpMyAdmin and it will take you to
+
+    		http://localhost/phpmyadmin/
