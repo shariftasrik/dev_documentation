@@ -12,7 +12,7 @@ Follow this link for the installation process :
 
 ## Step 2 :
 
-- Create new git repository in GitHub for your project
+1. Create new git repository in *GitHub* for your project
 
   		project_name
 
