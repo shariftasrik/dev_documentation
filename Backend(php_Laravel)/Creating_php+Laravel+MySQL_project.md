@@ -10,14 +10,14 @@ Follow this link for the installation process :
 
 <br/>
 
-## Step 2 :
+## Step 2 : Create Git Repository
 
 1. Create new git repository in *GitHub* for your project
 
   		project_name
 
 
-## Step 3 :
+## Step 3 : Create Laravel Project
 
 1. Open *XAMPP* Control Panel and start *Apache* and *MySQL*
 2. Open you *VS Code* and take a *New Terminal* as *Git Bash*
