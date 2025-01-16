@@ -1,4 +1,4 @@
-## Step 1 : Authentication using *Laravel Breeze*
+# Authentication using *Laravel Breeze*
 
 1. Go to *Breeze* which is in *Packages* in Laravel 11 page
 
@@ -40,6 +40,6 @@
             php artisan migrate
 
 
-### Breeze installation successful
+## Breeze installation successful
 npm install
 npm run dev
