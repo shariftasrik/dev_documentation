@@ -11,9 +11,9 @@ Follow this link for the installation process :
 <br/>
 
 ## Step 2 :
-<ol>
-	<li>Create new git repository in GitHub for your project</li>
-</ol>
+
+- Create new git repository in GitHub for your project
+
 
 ## Step 3 :
 
@@ -25,7 +25,8 @@ Follow this link for the installation process :
 - Cut the path location ("C:\xampp\htdocs\Folder_Name") and write "cmd" and press "Enter"</li>
 - Then it will open "cmd" with the path location of Folder_Name</li>
 - In the cmd write the command and press enter
-- 	`composer create-project laravel/laravel project-app-name`
-<br/>
+
+  		composer create-project laravel/laravel project-app-name
+- 
 
 	
