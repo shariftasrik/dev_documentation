@@ -19,7 +19,7 @@ Follow this link for the installation process :
 
 ## Step 3 :
 
-- Open *XAMPP* Control Panel and start *Apache* and *MySQL*
+1. Open *XAMPP* Control Panel and start *Apache* and *MySQL*
 - Open you *VS Code* and take a *New Terminal* as *Git Bash*
 - Go to *htdocs* under XAMPP folder
 
