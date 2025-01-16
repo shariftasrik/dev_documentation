@@ -85,7 +85,7 @@ Follow this link for the installation process :
 6. Remove the comments by deleting the *#* symbols
 7. Change the instructions like this for using MySQL
 
-     		DB_CONNECTION=mysql
+   		DB_CONNECTION=mysql
 		DB_HOST=127.0.0.1
 		DB_PORT=3306
 		DB_DATABASE=database_name
@@ -115,6 +115,6 @@ Follow this link for the installation process :
 	            ]) : [],
 	        ],
 
-   	NOTE: If you find different make sure to make it like this
+   	NOTE: If you find different make sure to make it like this<br/>
    	NOTE: the *DB_COLLATION* will be *utf8mb4_unicode_ci*
 ### The database is successfully created
