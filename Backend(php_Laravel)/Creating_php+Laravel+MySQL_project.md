@@ -55,7 +55,7 @@ Follow this link for the installation process :
 
 		localhost/dashboard/
 
-		![localhost-dashboard](https://github.com/user-attachments/assets/242259df-768f-4e84-82d0-3e6470c703e4)
+	![localhost-dashboard](https://github.com/user-attachments/assets/242259df-768f-4e84-82d0-3e6470c703e4)
 
 
 
@@ -63,4 +63,4 @@ Follow this link for the installation process :
 
     		http://localhost/phpmyadmin/
 
-		![localhost-dashboard](https://github.com/user-attachments/assets/2c4b4af3-1def-44a6-8143-09f7c11f04d0)
+	![localhost-dashboard](https://github.com/user-attachments/assets/2c4b4af3-1def-44a6-8143-09f7c11f04d0)
