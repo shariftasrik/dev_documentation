@@ -55,11 +55,11 @@ Follow this link for the installation process :
 
 		localhost/dashboard/
 2. It will show a new page where you will find
-<ul>
-	<li>Apache Friends</li>
-	<li>Applications</li>
-	<li>FAQs</li>
-	<li>HOW-TO Guides</li>
-	<li>PHPInfo</li>
-	<li>phpMyAdmin</li>
-</ul>
+	<ul>
+		<li>Apache Friends</li>
+		<li>Applications</li>
+		<li>FAQs</li>
+		<li>HOW-TO Guides</li>
+		<li>PHPInfo</li>
+		<li>phpMyAdmin</li>
+	</ul>
