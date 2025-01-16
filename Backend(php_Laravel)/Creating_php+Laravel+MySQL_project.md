@@ -61,7 +61,7 @@ Follow this link for the installation process :
 
 
 
- 3. Click on phpMyAdmin and it will take you to and click on Databse from that page
+ 2. Click on phpMyAdmin and it will take you to and click on Databse from that page
 
     		http://localhost/phpmyadmin/
 
@@ -69,3 +69,8 @@ Follow this link for the installation process :
 ![localhost-phpnyadmin](https://github.com/user-attachments/assets/b22d5d9d-561a-4a61-a35d-322e4c23ec1e)
 	<br/>
 
+3. Create new database with a Name like *database_name*
+
+![Create-Database](https://github.com/user-attachments/assets/eb2cd055-839e-4bae-ade0-e4971052d578)
+
+4. Go to *VS Code*
