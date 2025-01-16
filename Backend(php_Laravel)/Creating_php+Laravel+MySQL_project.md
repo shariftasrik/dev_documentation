@@ -14,19 +14,28 @@ Follow this link for the installation process :
 
 - Create new git repository in GitHub for your project
 
+  		project_name
+
 
 ## Step 3 :
 
 - Open *XAMPP* Control Panel and start *Apache* and *MySQL*
-- Click on *Explorer* from XAMPP and it will take you to XAMPP folder
+- Open *Git Bash*
 - Go to *htdocs* under XAMPP folder
-- Create a new Folder *Folder_Name* under this *htdocs* and enter into that Folder
-- Click on the Path and it will looks like this : "C:\xampp\htdocs\Folder_Name" 
-- Cut the path location ("C:\xampp\htdocs\Folder_Name") and write "cmd" and press *Enter*
-- Then it will open *cmd* with the path location of Folder_Name
-- In the *cmd* write the command and press *Enter*
 
-  		composer create-project laravel/laravel project-app-name
+  		cd c:
+  		cd xampp
+  		cd htdocs
+- Clone the created git repository into this htdocs using *git clone*
+
+  		git clone https://github.com/user_name/repo_name.git
+  
+- Go the newly cloned folder using *Git Bash*
+
+		cd repo_name
+- Create a new *Laravel* project using *git bash*
+
+  		composer create-project laravel/laravel project_name
 - 
 
 	
