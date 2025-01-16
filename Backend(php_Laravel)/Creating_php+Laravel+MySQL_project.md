@@ -54,9 +54,9 @@ Follow this link for the installation process :
 1. Write the command in you web browser
 
 		localhost/dashboard/
-2. It will show a new page with some navigators
-![Alt text](![Screenshot 2025-01-16 212710](https://github.com/user-attachments/assets/501e3811-a8a7-485e-b9b7-58ac99e734e6)
-)
+2. It will show a new page Like this
+![Repo - Dev Documentations](https://github.com/user-attachments/assets/f129825b-405b-462f-8c71-c3ead0b67780)
+
 
 	<ul>
 		<li>Apache Friends</li>
