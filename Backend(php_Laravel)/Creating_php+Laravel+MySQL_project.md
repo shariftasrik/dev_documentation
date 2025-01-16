@@ -11,7 +11,14 @@ Follow this link for the installation process :
 <br/>
 
 ## Step 2 :
+<ul>
+	<li>Open XAMPP and start "Apache" and "MySQL"</li>
+	<li>Click on "Explorer" from XAMPP and it will take you to XAMPP folder</li>
+	<li>Go to htdocs and create a new folder in which we will create a new laravel project</li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
 
-1. Open XAMPP and start "Apache" and "MySQL"
-2. Click on "Explorer" from XAMPP and it will take you to XAMPP folder
-3. Go to htdocs and create a new folder in which we will create a new laravel project
