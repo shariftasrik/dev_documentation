@@ -55,6 +55,9 @@ Follow this link for the installation process :
 
 		localhost/dashboard/
 2. It will show a new page with some navigators
+![Alt text](![Screenshot 2025-01-16 212710](https://github.com/user-attachments/assets/501e3811-a8a7-485e-b9b7-58ac99e734e6)
+)
+
 	<ul>
 		<li>Apache Friends</li>
 		<li>Applications</li>
@@ -63,6 +66,6 @@ Follow this link for the installation process :
 		<li>PHPInfo</li>
 		<li>phpMyAdmin</li>
 	</ul>
- 3. Click on phpMyAdmin and it will take you to
+ 4. Click on phpMyAdmin and it will take you to
 
     		http://localhost/phpmyadmin/
