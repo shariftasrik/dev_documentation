@@ -117,4 +117,12 @@ Follow this link for the installation process :
 
    	NOTE: If you find different make sure to make it like this<br/>
    	NOTE: the *DB_COLLATION* will be *utf8mb4_unicode_ci*
+   
 ### The database is successfully created
+
+## Step 3 : Authentication using *Laravel Breeze*
+
+1. Go to Breeze which is in Packages in Laravel 11 page
+
+   		https://laravel.com/docs/11.x/starter-kits#laravel-breeze
+2. 
