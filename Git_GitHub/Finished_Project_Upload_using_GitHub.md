@@ -10,25 +10,25 @@
     
         git init
   </li>
-  <li>  
+  <li>  Add everything to the git
     
         git add .
   </li>
-  <li>  
+  <li>  Commit 
     
         git commit -m "Initial commit with project files"
   </li> 
   <br/>
   <li>  Create a new git repository with the same name of the project at GitHub </li><br/>
-  <li>  
+  <li>  Connect with GitHub Repo
     
         git remote add origin https://github.com/your-username/my-project.git
   </li>
-  <li>  
+  <li>  Rename the branch name from "master" to "main"
     
         git branch -M main
   </li>
-  <li>  
+  <li>  Pushing everything in the main branch
     
         git push -u origin main
   </li>
@@ -37,10 +37,12 @@
 
 ## If anything wrong
 
-### Force Push (If You Want to Overwrite Remote)  
+### Forcefully pushing everything in the main branch
 
       git push origin main --force
       
-### steps to remove previous git init
+
+
+## steps to remove previous git init
 
       rm -rf .git
