@@ -22,8 +22,16 @@
 Step 3:
 1.Go to app => Models => User.php
 2. Remove comment from 
+
+From :
+
 	// use Illuminate\Contracts\Auth\MustVerifyEmail;
- 3. Code (User.php) will be like this :
+
+ To:
+ 
+ 	use Illuminate\Contracts\Auth\MustVerifyEmail;
+ 
+3. Code (User.php) will be like this :
  
         <?php
         
@@ -71,9 +79,10 @@ Step 3:
         }
 
 
-### NOTE :
+### Functionalities :
+
 1. class User extends Authenticatable implements MustVerifyEmail (MustVerifyEmail for verifying mail)
-2. To make selected Entity fillable
+2. To make Selected Entities *fillable*
 
         protected $fillable = [
                 'name',
@@ -82,7 +91,7 @@ Step 3:
             ];
  
  
-3. To make every entity fillable
+3. To make All the Entities *fillable*
    
            protected $guarded = [];
    
