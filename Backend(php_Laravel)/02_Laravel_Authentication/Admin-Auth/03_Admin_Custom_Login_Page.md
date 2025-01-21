@@ -9,9 +9,8 @@
 
 	    protected $guard = 'admin';
 
-3. Go to auth.php which is under config folder
-
-in the auth.php Laravel is using guard as web-guard by default and providers
+3. Go to auth.php which is under config folder <br/>
+and in the auth.php Laravel is using guard as web-guard by default and providers
 
 4. we have to update this guard for Admin (under 'web' guard from 'guards')
 
