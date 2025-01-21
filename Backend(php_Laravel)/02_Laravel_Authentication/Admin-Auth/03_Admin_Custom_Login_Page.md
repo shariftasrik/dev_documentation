@@ -37,3 +37,6 @@ and in the auth.php Laravel is using guard as web-guard by default and providers
                 'model' => env('AUTH_MODEL', App\Models\Admin::class),
             ],
         ],
+
+
+## Creating Routes
