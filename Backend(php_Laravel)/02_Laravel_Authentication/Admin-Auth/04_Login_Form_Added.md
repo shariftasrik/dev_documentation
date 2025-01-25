@@ -59,9 +59,9 @@ In Laravel, @csrf is a Blade template directive used to include a CSRF token in 
 ### Example:
  
 	<form method="POST" action="/submit-form">
-    		@csrf
-    		<input type="text" name="data" />
-    		<button type="submit">Submit</button>
+    	@csrf
+    	<input type="text" name="data" />
+    	<button type="submit">Submit</button>
 	</form>
 This ensures the CSRF token is added as a hidden input field:
 
