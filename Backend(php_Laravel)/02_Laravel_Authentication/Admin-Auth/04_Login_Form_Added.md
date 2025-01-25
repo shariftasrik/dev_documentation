@@ -108,5 +108,7 @@ now we have to make AdminLoginSubmit method into our AdminController.php
 	    //End Method
 
 
+## Step 9.
 
+	php artisan optimize
 
