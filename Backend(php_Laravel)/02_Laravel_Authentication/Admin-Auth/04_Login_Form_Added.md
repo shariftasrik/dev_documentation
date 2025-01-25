@@ -48,10 +48,10 @@ for error / showing error at the Admin Login page go to login.blade.php
 	    @endif  
 
 ## Step 5.
-now in the from name establish the 	
-	1. route('admin.login_submit')  
-	2. in the start of the from between <from></form> wirte @csrf
- 
+now in the from name establish the 	<br/>
+	1. route('admin.login_submit')  <br/>
+	2. in the start of the from between <from></form> wirte @csrf <br/>
+ <br/>
 More Details about @csrf 
 Laravel (PHP Framework)
 In Laravel, @csrf is a Blade template directive used to include a CSRF token in an HTML form.
