@@ -49,7 +49,7 @@ for error / showing error at the Admin Login page go to login.blade.php
 
 ## Step 5.
 now in the from name establish the 	<br/>
-	1. route('admin.login_submit')  <br/>
+	1. route('admin.login_submit') in the <from action="route"> <br/>
 	2. in the start of the from between <from></form> wirte @csrf <br/>
  <br/>
 More Details about @csrf 
