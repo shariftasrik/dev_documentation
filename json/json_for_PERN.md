@@ -1,13 +1,11 @@
-JSON Visualiser 
+## JSON Visualiser 
 
 	jsonviewer.stack.hu
 
 
-JSON : JavaScript Object Notation
+# JSON : JavaScript Object Notation
 
-<h1>It's a way to format data that can be send over the internet in a 
-readable but also efficient way.</h1>
-
+## It's a way to format data that can be send over the internet in a readable but also efficient way.
 
 JS Object -> JSON
 
