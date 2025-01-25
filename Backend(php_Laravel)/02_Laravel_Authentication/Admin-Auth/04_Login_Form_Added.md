@@ -70,6 +70,43 @@ This ensures the CSRF token is added as a hidden input field:
 	
 ## Step 6.
 
-in the input field of the Email address and Password there will be a new added called name, for both of these name will be as same as database<br/>
+in the input field of the Email address and Password there will be a new field added called name, for both of these name will be as same as database<br/>
 name="email" in the input<br/>
 name="password" in the input <br/>
+
+
+## Step 7.
+
+Go to web.php and make a new route post method for routing
+
+	Route::post('/admin/login_submit', [AdminController::class, 'AdminLoginSubmit'])->name('admin.login_submit');
+
+
+## Step 8.
+
+now we have to make AdminLoginSubmit method into our AdminController.php
+
+
+	public function AdminLoginSubmit(Request $request){
+	        $request->validate([
+	            'email' => 'required|email',
+	            'password' => 'required',
+	        ]);
+	        $check = $request->all();
+	
+	        $data = [
+	            'email' => $check['email'],
+	            'password' => $check['password']
+	        ];
+	
+	        if(Auth::guard('admin')->attempt($data)){
+	            return redirect()->route('admin.dashboard')->with('success','Login Successfully');
+	        }else{
+	            return redirect()->route('admin.login')->with('error','Invalid Credentials');
+	        }
+	    }
+	    //End Method
+
+
+
+
