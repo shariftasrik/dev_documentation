@@ -1,14 +1,17 @@
 # Login Form Added
 
-## Step 1. go to bootstrap official website
+## Step 1. 
+go to bootstrap official website
 
 		https://getbootstrap.com/
-## Step 2. copy bootstrap CDN link and paste it into login.blade.php file after then title attribute
+## Step 2. 
+copy bootstrap CDN link and paste it into login.blade.php file after then title attribute
 
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
-## Step 3. copy and paste a login form from bootstrap form section documentation
+## Step 3. 
+copy and paste a login form from bootstrap form section documentation
    
 		<form>
 		  <div class="mb-3">
@@ -28,7 +31,8 @@
 		</form>
 
 
-## Step 4. for error / showing error at the Admin Login page go to login.blade.php
+## Step 4. 
+for error / showing error at the Admin Login page go to login.blade.php
 
 	    @if ($errors -> any())
 	        @foreach ($errors->all() as $error)
