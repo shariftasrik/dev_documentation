@@ -28,4 +28,18 @@
 		</form>
 
 
-4.
+4. for error / showing error at the Admin Login page go to login.blade.php
+
+	    @if ($errors -> any())
+	        @foreach ($errors->all() as $error)
+	            <li>{{$error }}</li>
+	        @endforeach
+	    @endif        
+	
+	    @if (Session::has('error'))
+	        <li>{{ Session::get('error')}}</li>
+	    @endif    
+	
+	    @if (Session::has('success'))
+	        <li>{{ Session::get('success')}}</li>
+	    @endif 
