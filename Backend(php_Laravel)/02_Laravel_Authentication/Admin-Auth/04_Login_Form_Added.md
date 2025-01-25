@@ -42,8 +42,30 @@ for error / showing error at the Admin Login page go to login.blade.php
 	
 	    @if (Session::has('error'))
 	        <li>{{ Session::get('error')}}</li>
-	    @endif    
-	
-	    @if (Session::has('success'))
+	    @endif  	    
+     	    @if (Session::has('success'))
 	        <li>{{ Session::get('success')}}</li>
-	    @endif 
+	    @endif  
+
+## Step 5.
+now in the from name establish the 	
+	1. route('admin.login_submit')  
+	2. in the start of the from between <from></form> wirte @csrf
+ 
+More Details about @csrf 
+Laravel (PHP Framework)
+In Laravel, @csrf is a Blade template directive used to include a CSRF token in an HTML form.
+	
+ Example:
+ 
+	<form method="POST" action="/submit-form">
+    		@csrf
+    		<input type="text" name="data" />
+    		<button type="submit">Submit</button>
+	</form>
+This ensures the CSRF token is added as a hidden input field:
+
+	<input type="hidden" name="_token" value="your_csrf_token_here">
+     
+	
+
