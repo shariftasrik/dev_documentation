@@ -68,4 +68,8 @@ This ensures the CSRF token is added as a hidden input field:
 	<input type="hidden" name="_token" value="your_csrf_token_here">
      
 	
+## Step 6.
 
+in the input field of the Email address and Password there will be a new added called name, for both of these name will be as same as database<br/>
+name="email" in the input<br/>
+name="password" in the input <br/>
