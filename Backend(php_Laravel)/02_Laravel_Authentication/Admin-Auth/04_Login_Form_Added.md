@@ -56,7 +56,7 @@ More Details about @csrf
 Laravel (PHP Framework)
 In Laravel, @csrf is a Blade template directive used to include a CSRF token in an HTML form.
 	
- Example:
+### Example:
  
 	<form method="POST" action="/submit-form">
     		@csrf
