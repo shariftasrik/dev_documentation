@@ -1,4 +1,4 @@
-** Middleware for Authentication
+## Middleware for Authentication
 
     import JWT from "jsonwebtoken";
     
