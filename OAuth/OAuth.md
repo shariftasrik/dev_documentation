@@ -4,10 +4,10 @@
 
 <ul>
   <li>
-      <b>First :</b><i>Granular Level</i> of Access.
+      <b>First :</b> <i>Granular Level</i> of Access.
   </li>
     <li>
-      <b>Second :</b><i>Read-only</i> or <i>Read-and-Write</i> access.
+      <b>Second :</b> <i>Read-only</i> or <i>Read-and-Write</i> access.
   </li>
     <li>
       <b>Third :</b> The third party <i>Revoke</i> Access.
