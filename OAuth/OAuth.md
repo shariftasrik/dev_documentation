@@ -4,12 +4,12 @@
 
 <ul>
   <li>
-      <b><u>First :</u></b> It allows you to grant a Granular Level of Access.
+      <b>First :</b>Granular Level of Access.
   </li>
     <li>
-      <b><u>Second :</u></b> It allows for either <i>Read-only</i> or <i>Read-and-Write</i> access.
+      <b>Second :</b><i>Read-only</i> or <i>Read-and-Write</i> access.
   </li>
     <li>
-      <b><u>Third :</u></b> The third party that you're using to authenticate your users should be able to <i>Revoke</i> Access at any point on their website.
+      <b>Third :</b> The third party <i>Revoke</i> Access.
   </li>
 </ul>
