@@ -9,8 +9,9 @@ There's a lot of other open standards that does something similar to this, but O
 
 # How does OAuth actually works?
 
+### Steps :
 <ul>
-  <li> Set Up Your App </li>
+  <li> Set up your App </li>
   <li> Redirect to Authenticate </li>
   <li> Users Login </li>
   <li> Users Grant Permissions </li>
