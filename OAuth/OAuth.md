@@ -16,27 +16,22 @@
 
 # How does OAuth actually works?
 
-###
-
 <ul>
-  <li>
-      Set Up Your App.
-  </li>
-    <li>
-      Redirect to Authenticate.
-  </li>
-    <li>
-      <b>Third  :</b> <i></i> .
-  </li>
+  <li> Set Up Your App </li>
+  <li> Redirect to Authenticate </li>
+  <li> </li>
 </ul>
 
-<ul>Set Up Your App
+
+## Set Up Your App
+<ul>
   <li> We have to set up our app in their developer console</li> 
   <li> In return we get what's called an app ID or a client ID</li>
   <li> Then we or our website is then the client, which will make the request to Google/Facebook/LinkedIn etc to authenticate our user</li>
 </ul>
 
-<ul>Redirect to Authenticate
+## Redirect to Authenticate
+<ul>
   <li> </li> 
   <li> </li>
   <li> </li>
