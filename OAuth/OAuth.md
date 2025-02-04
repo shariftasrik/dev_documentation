@@ -4,7 +4,7 @@
 
 <ul>
   <li>
-      <b>First :</b>Granular Level of Access.
+      <b>First :</b><i>Granular Level</i> of Access.
   </li>
     <li>
       <b>Second :</b><i>Read-only</i> or <i>Read-and-Write</i> access.
