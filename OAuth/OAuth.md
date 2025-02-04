@@ -27,7 +27,7 @@ There's a lot of other open standards that does something similar to this, but O
   <li> Go to index.js of your project where you make connect all the external things</li>
   <li> Again "npm i" in the terminal</li>
   <li> import GoogleStrategy from "passport-google-oauth2"; in index.js</li>
-  <li> use passport 
+  <li> Paste this after the first use of passport 
 
       passport.use("google", new GoogleStrategy({
         clientID : process.env.GOOGLE_CLIENT_ID,
