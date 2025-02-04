@@ -12,22 +12,8 @@ There's a lot of other open standards that does something similar to this, but O
 <ul>
   <li> Set Up Your App </li>
   <li> Redirect to Authenticate </li>
-  <li> </li>
+  <li> Users Login </li>
+  <li> Users Grant Permissions </li>
+  <li> Receive Authorization Code </li>
+  <li> Exchange AuthCode for Access Token</li>
 </ul>
-
-
-## Set Up Your App
-<ul>
-  <li> We have to set up our app in their developer console</li> 
-  <li> In return we get what's called an app ID or a client ID</li>
-  <li> Then we or our website is then the client, which will make the request to Google/Facebook/LinkedIn etc to authenticate our user</li>
-</ul>
-
-## Redirect to Authenticate
-<ul>
-  <li> </li> 
-  <li> </li>
-  <li> </li>
-</ul>
-
-
