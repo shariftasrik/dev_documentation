@@ -10,11 +10,11 @@ There's a lot of other open standards that does something similar to this, but O
 # How does OAuth actually works?
 
 ### Steps :
-<ul>
+<ol>
   <li> Set up your App </li>
   <li> Redirect to Authenticate </li>
   <li> Users Login </li>
   <li> Users Grant Permissions </li>
   <li> Receive Authorization Code </li>
   <li> Exchange AuthCode for Access Token</li>
-</ul>
+</ol>
