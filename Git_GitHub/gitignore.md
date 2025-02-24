@@ -131,3 +131,6 @@
     .yarn/build-state.yml
     .yarn/install-state.gz
     .pnp.*
+
+    # Ignore .history folder
+    .history/
